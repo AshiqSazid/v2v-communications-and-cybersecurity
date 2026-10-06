@@ -1,0 +1,13 @@
+{
+  "binary_sha256": "120a8b7004ccdbe36bb04d5ab910890c23f22269e855776c264494000a3f5711",
+  "duration_s": 0.22290974100178573,
+  "experiment_id": "test__serial_timing__detector_on__seed_9301",
+  "finished_utc": "2026-08-02T17:03:36+00:00",
+  "pair_rows": 0,
+  "schema": "v6",
+  "status": "complete",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "fe4151cececa0b05d48b18cbe0c0ed9a32f66c1c6fdd00b557b0b7e64b6492d9",
+  "summary_sha256": "7fc59bf974626c9811e9846861d3fd8d160c5400ec855ada9dd0a4ebd2051cd9",
+  "trace_rows": 0
+}

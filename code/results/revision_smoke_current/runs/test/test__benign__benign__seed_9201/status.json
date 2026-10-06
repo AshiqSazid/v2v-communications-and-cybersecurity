@@ -1,0 +1,15 @@
+{
+  "binary_sha256": "120a8b7004ccdbe36bb04d5ab910890c23f22269e855776c264494000a3f5711",
+  "duration_s": 0.27006416199947125,
+  "experiment_id": "test__benign__benign__seed_9201",
+  "finished_utc": "2026-08-02T17:03:35+00:00",
+  "pair_rows": 31,
+  "pairs_sha256": "f7d2e53a28ed1db6286fc6d9a8036767d5a7dd68176183b5b939edefa78e7b4c",
+  "schema": "v6",
+  "status": "complete",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "35a5955b225fc41ed967867174d81fa173379156bad3b32c26dad55525db38e5",
+  "summary_sha256": "e719c51897885b4e33038fb383fb2ca0bf2b59c85a7aa01433a165becd6627c9",
+  "trace_rows": 1032,
+  "trace_sha256": "8189f232bfada8d26c7030f08a87858462a3c7898adf016a17b1e157f7899835"
+}

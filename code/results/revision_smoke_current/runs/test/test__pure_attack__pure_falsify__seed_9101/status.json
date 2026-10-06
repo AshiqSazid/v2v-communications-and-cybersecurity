@@ -1,0 +1,14 @@
+{
+  "binary_sha256": "120a8b7004ccdbe36bb04d5ab910890c23f22269e855776c264494000a3f5711",
+  "duration_s": 0.24477633900096407,
+  "experiment_id": "test__pure_attack__pure_falsify__seed_9101",
+  "finished_utc": "2026-08-02T17:03:32+00:00",
+  "pair_rows": 11,
+  "pairs_sha256": "66ee6c08319b62195c07592564e98b874dcc4c1b4cd247877080bae698a549ff",
+  "schema": "v6",
+  "status": "complete",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "ca32b45897e579e922038f2bd62bcb65284bd63fc87a68a2b7a79a5be9c69913",
+  "summary_sha256": "95b55b7195b05d1cf0da2b9108e89201f171689eeba6d6794dac48cab329de00",
+  "trace_rows": 0
+}

@@ -1,0 +1,16 @@
+{
+  "arm": "noise_shape_supplementary",
+  "purpose": "reviewer point 12: non-Gaussian and correlated localisation error",
+  "base_configuration": "attacker-free (benign) arm of the frozen v9 test partition",
+  "shapes": [
+    "student_t",
+    "biased",
+    "correlated"
+  ],
+  "seeds_per_shape": 30,
+  "binary_sha256": "e7b17d07c2c41fb594dedcac52d01929e68fb12dc9eb6a2868e48d6d414a6e56",
+  "source_sha256": "ccc7e30f1f887f5254927b9bea7acfcde7b1afb60f4c1b5989a30d73c3643855",
+  "default_path_reproduces_v9_bit_for_bit": true,
+  "verification": "re-ran test__pure_attack__pure_falsify__seed_0001 with the new binary; pairs.csv sha256 identical to the frozen run",
+  "runs": 90
+}

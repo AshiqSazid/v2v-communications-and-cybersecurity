@@ -1,0 +1,7 @@
+stride_class,n_scenarios,damage,reproducibility,exploitability,affected_users,discoverability,total,normalised_impact,source
+S_SPOOFING,16,8,6.5,10,10,2,36.5,0.73,derived from source dataset (component-wise arithmetic means over scenarios; no pre-sum rounding)
+S_TAMPERING,32,7.75,6.5,6.375,9.125,4.125,33.875,0.6775,derived from source dataset (component-wise arithmetic means over scenarios; no pre-sum rounding)
+S_REPUDIATION,8,7.75,6.5,2.5,9.5,2,28.25,0.565,derived from source dataset (component-wise arithmetic means over scenarios; no pre-sum rounding)
+S_INFO_DISCLOSURE,0,8,6,2,8,2,26,0.52,author-elicited; no matching source-dataset scenarios
+S_DOS,4,7.5,6.5,6,9,8,37,0.74,derived from source dataset (component-wise arithmetic means over scenarios; no pre-sum rounding)
+S_ELEVATION,0,8,6,2,9,2,27,0.54,author-elicited; no matching source-dataset scenarios

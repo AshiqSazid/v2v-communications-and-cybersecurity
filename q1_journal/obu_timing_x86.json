@@ -1,0 +1,14 @@
+{
+  "distinct_keys": 2415,
+  "machine": "x86_64",
+  "max_us": 169.078,
+  "mean_us": 42.1003215,
+  "p50_us": 39.47,
+  "p95_us": 54.776,
+  "p99_us": 67.696,
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.43",
+  "python": "3.14.4",
+  "receptions": 40000,
+  "throughput_calls_per_s": 23752.787731086566,
+  "trace": "results/veremi/test__veremi__reversedHeading__seed_0001/trace.csv"
+}

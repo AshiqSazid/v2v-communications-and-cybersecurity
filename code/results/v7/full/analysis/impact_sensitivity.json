@@ -1,0 +1,27 @@
+{
+  "discordance_vs_score": {
+    "mean": 0.017383388034514797,
+    "note": "fraction of pair comparisons where Q and S disagree on order",
+    "seeds": 30
+  },
+  "tau_compressed": {
+    "mean": 0.992369850767196,
+    "min": 0.9834248759744861,
+    "seeds": 31
+  },
+  "tau_reversed": {
+    "mean": 0.8156157989463717,
+    "min": 0.7756140434020223,
+    "seeds": 31
+  },
+  "tau_stretched": {
+    "mean": 0.9963425387271442,
+    "min": 0.9924397389863614,
+    "seeds": 31
+  },
+  "tau_uniform": {
+    "mean": 0.9396471053301397,
+    "min": 0.9237301208812746,
+    "seeds": 30
+  }
+}

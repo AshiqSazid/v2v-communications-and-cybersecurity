@@ -1,0 +1,14 @@
+{
+  "binary_sha256": "120a8b7004ccdbe36bb04d5ab910890c23f22269e855776c264494000a3f5711",
+  "duration_s": 0.30711727699963376,
+  "experiment_id": "validation__threshold_selection__validation_revheading__seed_9001",
+  "finished_utc": "2026-08-02T17:03:29+00:00",
+  "pair_rows": 18,
+  "pairs_sha256": "efd029156f5ea1d066b813c7b34bfea6eaa90c38f23a73155674a0e84b0a7e7a",
+  "schema": "v6",
+  "status": "complete",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "0b3368e531ea6446ebf0111cd27eb322fcfbbacd5fa858645ce16659f7a436d0",
+  "summary_sha256": "4f72b2a5ab47efe9280119aa29985584ee8f8c0101566396a6bf0524fc11e419",
+  "trace_rows": 0
+}

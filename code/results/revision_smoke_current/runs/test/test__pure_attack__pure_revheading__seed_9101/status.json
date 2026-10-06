@@ -1,0 +1,14 @@
+{
+  "binary_sha256": "120a8b7004ccdbe36bb04d5ab910890c23f22269e855776c264494000a3f5711",
+  "duration_s": 0.23032002200125135,
+  "experiment_id": "test__pure_attack__pure_revheading__seed_9101",
+  "finished_utc": "2026-08-02T17:03:33+00:00",
+  "pair_rows": 11,
+  "pairs_sha256": "54fb467135dc1bd9fd2b5ec2dad3afa292e474d4e1ac627f78188dbd0498f526",
+  "schema": "v6",
+  "status": "complete",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "9e56a347fc41a308689f6549fd4bdf5b7dd4cb328a0c5a64a274e5dae579a1a4",
+  "summary_sha256": "9784331171f57acec66e6e3a5034f77f3002feabcb1e68f9121591045bb2b383",
+  "trace_rows": 0
+}

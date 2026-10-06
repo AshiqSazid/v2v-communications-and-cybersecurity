@@ -1,0 +1,14 @@
+{
+  "binary_sha256": "120a8b7004ccdbe36bb04d5ab910890c23f22269e855776c264494000a3f5711",
+  "duration_s": 0.2442717520025326,
+  "experiment_id": "test__pure_attack__pure_slydos__seed_9101",
+  "finished_utc": "2026-08-02T17:03:33+00:00",
+  "pair_rows": 11,
+  "pairs_sha256": "b62246724f171cdf0b5c380feef416e0706d806b640561b27fa4d27dff07f130",
+  "schema": "v6",
+  "status": "complete",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "56b92ea1ac8a0fa7ecaebd538addb79df5f231c087d9739d94bedc9033997832",
+  "summary_sha256": "529822ef438fdbfdd58632ef12e87c7075a88be71d88967312e7e83cdad99cd1",
+  "trace_rows": 0
+}

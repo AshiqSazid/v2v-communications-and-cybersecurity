@@ -1,0 +1,14 @@
+{
+  "binary_sha256": "120a8b7004ccdbe36bb04d5ab910890c23f22269e855776c264494000a3f5711",
+  "duration_s": 0.5008725670013519,
+  "experiment_id": "test__pure_attack__pure_dos__seed_9101",
+  "finished_utc": "2026-08-02T17:03:33+00:00",
+  "pair_rows": 11,
+  "pairs_sha256": "1a8e6b6e99b44822daf4414d1ba48cc63bce7cb7063b19b037a640116cb36b53",
+  "schema": "v6",
+  "status": "complete",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "d992f8d88143d080e974332cecc44fbb8e227e177bee14c7461c3c7ac054e4c2",
+  "summary_sha256": "24ac54eac1821fbc6c0ecf640c20f62c1842e6bdf50302990bbf4dff1f573a35",
+  "trace_rows": 0
+}

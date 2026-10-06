@@ -1,0 +1,33 @@
+variable,type,definition,status
+Record_ID,Text,Unique scenario key formed from attack code and context code,Generated
+Attack_Type,Categorical,One of the 15 VeReMi NextGen attack types,VeReMi taxonomy
+Attack_Category,Categorical,"Availability, integrity, authenticity or freshness class",Derived taxonomy
+Message_Attribute,Categorical,V2V field affected by the attack,VeReMi taxonomy
+Environment,Categorical,Urban or highway,Scenario design
+Traffic_Density,Ordinal,Low or high,Scenario design
+Driver_Profile,Categorical,"Cautious, normal or aggressive",Scenario design based on VeReMi context
+Attack_Intensity,Ordinal,"Low, moderate, high or severe",Scenario design
+HV_km_h / RV_km_h,Numeric,Host and remote vehicle speeds used for the context,Safety benchmark design
+Target_Component,Categorical,Vehicle or communication component at risk,Derived from attack semantics and Acti ontology
+Source_Record_ID,Text,Representative AutomotiveTD record,Observed source identifier
+Vulnerability_ID,Text,CVE when available; otherwise AutomotiveTD ID,Observed source identifier
+Source_Interface,Categorical,"Network, adjacent, WLAN, GPS, OBD or related interface",AutomotiveTD
+CVSS_Base,Numeric,Observed CVSS base score,AutomotiveTD
+CVSS_Exploitability_Normalised,Numeric,CVSS v3 exploitability or normalised CVSS v2 exploitability,Observed/normalised
+Safety_Impact_Score,Ordinal 1–5,Potential physical-safety consequence,Derived
+Operational_Impact_Score,Ordinal 1–5,Service and vehicle-function consequence,Derived
+Privacy_Impact_Score,Ordinal 1–5,"Location, identity or data consequence",Derived
+Financial_Impact_Score,Ordinal 1–5,"Repair, fraud or loss consequence",Derived
+Overall_Impact_Score,Ordinal 1–5,Weighted multidimensional impact,Calculated
+Likelihood_Score,Ordinal 1–5,Estimated exploit/occurrence likelihood,Calculated
+Exposure_Score,Ordinal 1–5,Accessibility of the attack surface,Calculated
+Detection_Difficulty,Ordinal 1–5,Difficulty of identifying the attack,Expert-coded assumption
+Inherent_Risk_0_100,Numeric,Risk before controls,Calculated
+Mitigation_Control,Text,Recommended control bundle,Acti-informed and literature-informed
+Mitigation_Effectiveness_pct,Numeric,Assumed percentage risk reduction,Derived assumption
+Residual_Risk_0_100,Numeric,Risk after mitigation,Calculated
+APL_bytes / Attack_Rate_Mbps,Numeric,DoS attack packet length and transmission rate,Observed for DoS only
+PDR_pct / E2E_Latency_ms,Numeric,Packet delivery and latency,Observed for DoS only
+Observed_SRI,Numeric,Source Safety Risk Index,Observed for DoS only
+Derived_Safety_Proxy_0_1,Numeric,Comparable safety-severity feature for all attacks,Calculated
+Network_Metric_Status,Categorical,Observed DoS benchmark or derived scenario,Provenance flag

@@ -1,0 +1,14 @@
+{
+  "binary_sha256": "120a8b7004ccdbe36bb04d5ab910890c23f22269e855776c264494000a3f5711",
+  "duration_s": 0.22460415699970326,
+  "experiment_id": "test__steady_state__pure_revheading_steady__seed_9101",
+  "finished_utc": "2026-08-02T17:03:33+00:00",
+  "pair_rows": 11,
+  "pairs_sha256": "337c84137787c4909a1dec91c8fb18821a0f75f23ea3b3674ca3b02704ad3ef6",
+  "schema": "v6",
+  "status": "complete",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "d031ce15e109f85fc4522c3114ec8178d44021b8de10593ea516571c2e4ea90c",
+  "summary_sha256": "152a43ee8708a31577aff184fb94cd5367c83eed1f8f1da21d571432dc540d61",
+  "trace_rows": 0
+}

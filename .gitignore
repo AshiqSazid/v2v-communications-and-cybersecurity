@@ -1,0 +1,52 @@
+# Repository-root ignores. Bulk simulation output has its own rules in
+# code/.gitignore, which are version-agnostic on purpose.
+
+# Local tool state. .claude/settings.local.json records machine-specific
+# permissions and an author email; .firecrawl holds scraped source documents
+# including private review correspondence. Neither belongs in a public repo.
+.claude/
+.firecrawl/
+
+# LaTeX build products. The .tex, .bib and figures/*.pdf are the sources;
+# everything below regenerates from them with pdflatex + bibtex.
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+*.lof
+*.lot
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# frozen sweep raw traces: >60 GB, exactly regenerable from source+seeds+plans
+code/results/*/full/runs/*/*/trace.csv
+code/*.log
+code/*.err
+zenodo_artifact.zip
+
+# VeReMi NextGen: 130 MB of downloaded archives + extractions, fetched by
+# code/README.md's documented curl commands from DOI 10.5281/zenodo.19665762
+data/veremi/
+
+# Manuscript, not code: the paper sources, their compiled output and the
+# review correspondence stay out of the public repo. Figures are build
+# products of code/make_*_figure.py.
+/*.tex
+/*.pdf
+/*.bib
+/*.docx
+q1_journal/*.tex
+q1_journal/*.pdf
+q1_journal/*.bib
+q1_journal/*.spl
+q1_journal/*.zip
+figures/

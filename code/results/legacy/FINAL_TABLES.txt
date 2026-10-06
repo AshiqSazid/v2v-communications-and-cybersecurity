@@ -1,0 +1,91 @@
+V2V BAYESIAN MISBEHAVIOUR DETECTION -- FINAL TABLES
+generated 2026-07-30 19:04 UTC | ns-3.40 | g++ 13.3.0 | 8-core Linux
+
+  dropped 7 malformed row(s), 192 duplicate run(s)
+1350 runs from /home/moodifai/Music/ieee_tasnim_bhai/code/results/results.csv
+
+### Detection by attack type (30% attackers)
+attack           n         pair_tpr         pair_fpr          pair_f1              auc
+constoffset     30     0.000+-0.000     0.000+-0.000             --       0.500+-0.000
+dos             30     0.835+-0.006     0.000+-0.000     0.910+-0.004     0.979+-0.001
+falsify         30     0.973+-0.003     0.000+-0.000     0.987+-0.001     0.991+-0.000
+mixed           30     0.925+-0.009     0.000+-0.000     0.961+-0.005     0.898+-0.010
+mixedhard       30     0.647+-0.020     0.000+-0.000     0.784+-0.015     0.857+-0.011
+replay          30     0.651+-0.085     0.000+-0.000     0.811+-0.044     0.789+-0.014
+revheading      30     0.959+-0.004     0.000+-0.000     0.979+-0.002     0.992+-0.000
+slydos          30     0.000+-0.000     0.000+-0.000             --       0.500+-0.000
+spoof           30             --       0.001+-0.001             --       0.642+-0.013
+
+### Time to detect (30% attackers) -- censored, read together
+attack           n       median_ttd ttd_detected_frac
+constoffset     30       0.00+-0.00     0.000+-0.000
+dos             30       2.36+-0.04     0.885+-0.006
+falsify         30       0.71+-0.02     0.973+-0.003
+mixed           30       0.94+-0.05     0.941+-0.009
+mixedhard       30       1.34+-0.08     0.664+-0.021
+replay          30       0.99+-0.33     0.651+-0.085
+revheading      30       1.39+-0.02     0.959+-0.004
+slydos          30             --       0.000+-0.000
+spoof           30             --               --  
+
+### Victim framing under impersonation (30% attackers)
+attack           n        contested contested_flagged
+constoffset     30         0.0+-0.0         0.0+-0.0
+dos             30         0.0+-0.0         0.0+-0.0
+falsify         30         0.0+-0.0         0.0+-0.0
+mixed           30      305.4+-24.2      236.3+-23.2
+mixedhard       30      206.5+-20.1      153.1+-16.2
+replay          30      718.2+-21.4      656.5+-19.8
+revheading      30         0.0+-0.0         0.0+-0.0
+slydos          30         0.0+-0.0         0.0+-0.0
+spoof           30       248.3+-6.4        95.2+-7.1
+
+### Detection vs attacker fraction (mixedhard)
+frac       n         pair_tpr         pair_fpr          pair_f1              auc
+0.1       30     0.635+-0.028     0.000+-0.000     0.774+-0.021     0.908+-0.010
+0.2       30     0.703+-0.026     0.000+-0.000     0.823+-0.017     0.861+-0.012
+0.3       30     0.647+-0.020     0.000+-0.000     0.784+-0.015     0.857+-0.011
+0.5       30     0.733+-0.013     0.000+-0.000     0.846+-0.009     0.858+-0.014
+
+### Benign baseline -- false alarms with no attacker present
+attack           n         pair_fpr          msg_fpr
+none            30   0.0000+-0.0000   0.0000+-0.0000
+
+### Sensor-noise sensitivity (mixedhard, 30%)
+sigma              n         pair_tpr         pair_fpr          pair_f1              auc
+gpsSigma=0        30     0.647+-0.020     0.000+-0.000     0.784+-0.015     0.857+-0.011
+gpsSigma=1        30     0.647+-0.020     0.000+-0.000     0.784+-0.015     0.857+-0.011
+gpsSigma=2        30     0.647+-0.020     0.000+-0.000     0.784+-0.015     0.857+-0.011
+gpsSigma=4        30     0.646+-0.020     0.000+-0.000     0.784+-0.015     0.857+-0.011
+gpsSigma=8        30     0.650+-0.020     0.020+-0.003     0.764+-0.015     0.854+-0.011
+
+### Cost: latency, PDR, detector CPU
+arm                n       latency_ms              pdr           det_us
+detector=off      30       8.44+-0.81     0.469+-0.008       0.00+-0.00
+detector=on      1110       8.48+-0.14     0.469+-0.001       7.00+-0.13
+
+### Kinematic thresholds: naive vs noise-aware (ablation)
+thresholds       scenario      n         pair_fpr         pair_tpr              auc
+naive (fixed)    none         30     0.914+-0.003             --               --  
+naive (fixed)    mixedhard    30     0.910+-0.005     0.937+-0.006     0.539+-0.002
+noise-aware      none         30     0.000+-0.000             --               --  
+noise-aware      mixedhard    30     0.000+-0.000     0.647+-0.020     0.857+-0.011
+
+### Detector cost -- SERIAL runs, uncontended CPU
+(the det_us column in the main sweep is invalid: wall-clock
+ timing under 7-way parallelism inflated it ~2x)
+arm                n           det_us       latency_ms              pdr
+detector=on       10     3.781+-0.386       9.35+-1.71     0.476+-0.013
+detector=off      10     0.000+-0.000       9.35+-1.71     0.476+-0.013
+  latency and PDR are bit-identical across the two arms: same
+  seeds, and the detector never transmits. That VERIFIES the
+  detector is passive rather than measuring an independent
+  quantity -- do not present it as 'no measurable impact'.
+
+Notes for the paper:
+  * CIs are over seeds (n per row above), the correct unit.
+  * pair_tpr is undefined for spoof (attacker never transmits under
+    its own identity) and for frac=0; those cells show '--'.
+  * median_ttd covers only attackers ever detected. Read it with
+    ttd_detected_frac or it overstates responsiveness.
+  * Report pair_* metrics; msg_* exist only for the ROC curve.

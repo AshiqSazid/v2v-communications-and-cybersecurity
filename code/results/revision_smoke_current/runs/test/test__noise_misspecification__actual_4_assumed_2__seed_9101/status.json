@@ -1,0 +1,14 @@
+{
+  "binary_sha256": "120a8b7004ccdbe36bb04d5ab910890c23f22269e855776c264494000a3f5711",
+  "duration_s": 0.37447733499720925,
+  "experiment_id": "test__noise_misspecification__actual_4_assumed_2__seed_9101",
+  "finished_utc": "2026-08-02T17:03:34+00:00",
+  "pair_rows": 12,
+  "pairs_sha256": "9f7f7f77a4dcd9e792e9c0f7520482275eb957ef8c9e9c6f288443fb130d92b7",
+  "schema": "v6",
+  "status": "complete",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "4d3b0ccb574cd32d133f36ec6c7e5cbc40e788271e033d6dc809e1b409fea59e",
+  "summary_sha256": "e92cd5c17bad7a3785ef9df8cf27fe75e38a50d0bd00c64e0357d5be74fdbe66",
+  "trace_rows": 0
+}

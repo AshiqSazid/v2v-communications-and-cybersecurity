@@ -1,0 +1,14 @@
+{
+  "binary_sha256": "120a8b7004ccdbe36bb04d5ab910890c23f22269e855776c264494000a3f5711",
+  "duration_s": 0.37076395799886086,
+  "experiment_id": "test__mobility__manoeuvre__seed_9101",
+  "finished_utc": "2026-08-02T17:03:35+00:00",
+  "pair_rows": 16,
+  "pairs_sha256": "99b6cc93ee8d6affe120b5fecafdfa0347eea73d0feb311b74669b4664b8f792",
+  "schema": "v6",
+  "status": "complete",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "70f44fd80d2e1d5ffc2feef11f12f8191c4b0cdba6c6d77eb597118147b67b4d",
+  "summary_sha256": "2ae860e99ad464d326481259b1700e05877b27283c0c2e013c12fb38e9aa1bb5",
+  "trace_rows": 0
+}

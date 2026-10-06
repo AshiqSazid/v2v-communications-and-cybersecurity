@@ -1,0 +1,254 @@
+{
+  "detectors": {
+    "gradient-boosting": {
+      "per_arm": {
+        "constantPositionOffset": {
+          "ci95": [
+            0.36627906976744184,
+            0.4492753623188406
+          ],
+          "clean": 2140,
+          "clean_fpr": 0.033177570093457946,
+          "hostile": 558,
+          "tpr": 0.4068100358422939
+        },
+        "dataReplay": {
+          "ci95": [
+            0.8989169675090253,
+            0.94
+          ],
+          "clean": 2139,
+          "clean_fpr": 0.0345956054230949,
+          "hostile": 559,
+          "tpr": 0.9194991055456172
+        },
+        "dosAttack": {
+          "ci95": [
+            0.9936974789915967,
+            1.0
+          ],
+          "clean": 2193,
+          "clean_fpr": 0.030551755585955312,
+          "hostile": 505,
+          "tpr": 0.998019801980198
+        },
+        "reversedHeading": {
+          "ci95": [
+            0.9530434782608695,
+            0.982421875
+          ],
+          "clean": 2166,
+          "clean_fpr": 0.032317636195752536,
+          "hostile": 532,
+          "tpr": 0.9680451127819549
+        }
+      },
+      "threshold": 0.256,
+      "threshold_source": "VeReMi Validation, paper's selection rule",
+      "validation_mean_f1": 0.9939768865714845
+    },
+    "random-forest": {
+      "per_arm": {
+        "constantPositionOffset": {
+          "ci95": [
+            0.2933104631217839,
+            0.3754646840148699
+          ],
+          "clean": 2140,
+          "clean_fpr": 0.009813084112149532,
+          "hostile": 558,
+          "tpr": 0.3333333333333333
+        },
+        "dataReplay": {
+          "ci95": [
+            0.8533834586466166,
+            0.9051724137931034
+          ],
+          "clean": 2139,
+          "clean_fpr": 0.011220196353436185,
+          "hostile": 559,
+          "tpr": 0.8801431127012522
+        },
+        "dosAttack": {
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "clean": 2193,
+          "clean_fpr": 0.010031919744642043,
+          "hostile": 505,
+          "tpr": 1.0
+        },
+        "reversedHeading": {
+          "ci95": [
+            0.9624060150375939,
+            0.9878787878787879
+          ],
+          "clean": 2166,
+          "clean_fpr": 0.009695290858725761,
+          "hostile": 532,
+          "tpr": 0.9755639097744361
+        }
+      },
+      "threshold": 0.476,
+      "threshold_source": "VeReMi Validation, paper's selection rule",
+      "top_features": [
+        [
+          "dist_max",
+          0.1272
+        ],
+        [
+          "heading_cos_mean",
+          0.1091
+        ],
+        [
+          "heading_cos_min",
+          0.0971
+        ],
+        [
+          "speed_residual_mean",
+          0.079
+        ],
+        [
+          "speed_residual_max",
+          0.0779
+        ],
+        [
+          "speed_residual_sd",
+          0.0728
+        ]
+      ],
+      "validation_mean_f1": 0.9913712260959361
+    },
+    "sequential-score (ours, re-frozen tau)": {
+      "per_arm": {
+        "constantPositionOffset": {
+          "ci95": [
+            0.01601423487544484,
+            0.04316546762589928
+          ],
+          "clean": 2140,
+          "clean_fpr": 0.001869158878504673,
+          "hostile": 558,
+          "tpr": 0.02867383512544803
+        },
+        "dataReplay": {
+          "ci95": [
+            0.8049645390070922,
+            0.8646496815286624
+          ],
+          "clean": 2139,
+          "clean_fpr": 0.0023375409069658717,
+          "hostile": 559,
+          "tpr": 0.8354203935599285
+        },
+        "dosAttack": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "clean": 2193,
+          "clean_fpr": 0.0027359781121751026,
+          "hostile": 505,
+          "tpr": 0.0
+        },
+        "reversedHeading": {
+          "ci95": [
+            0.9499072356215214,
+            0.9808429118773946
+          ],
+          "clean": 2166,
+          "clean_fpr": 0.002770083102493075,
+          "hostile": 532,
+          "tpr": 0.9661654135338346
+        }
+      },
+      "threshold": 0.425,
+      "threshold_source": "VeReMi Validation, same selection rule as the learned models",
+      "validation_mean_f1": 0.4785306440327847
+    },
+    "sequential-score (ours, transferred tau)": {
+      "per_arm": {
+        "constantPositionOffset": {
+          "ci95": [
+            0.013592233009708738,
+            0.03945111492281304
+          ],
+          "clean": 2140,
+          "clean_fpr": 0.0,
+          "hostile": 558,
+          "tpr": 0.025089605734767026
+        },
+        "dataReplay": {
+          "ci95": [
+            0.791814946619217,
+            0.8553345388788427
+          ],
+          "clean": 2139,
+          "clean_fpr": 0.0,
+          "hostile": 559,
+          "tpr": 0.8246869409660107
+        },
+        "dosAttack": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "clean": 2193,
+          "clean_fpr": 0.0,
+          "hostile": 505,
+          "tpr": 0.0
+        },
+        "reversedHeading": {
+          "ci95": [
+            0.9130434782608695,
+            0.9547826086956521
+          ],
+          "clean": 2166,
+          "clean_fpr": 0.0,
+          "hostile": 532,
+          "tpr": 0.9342105263157895
+        }
+      },
+      "threshold": 0.498,
+      "threshold_source": "frozen on our generator, transferred unchanged"
+    }
+  },
+  "features": [
+    "count",
+    "dist_mean",
+    "dist_sd",
+    "dist_max",
+    "dist_min",
+    "claimed_speed_mean",
+    "claimed_speed_sd",
+    "claimed_speed_max",
+    "claimed_speed_min",
+    "age_mean",
+    "age_sd",
+    "age_max",
+    "age_min",
+    "implied_speed_mean",
+    "implied_speed_sd",
+    "implied_speed_max",
+    "implied_speed_min",
+    "speed_residual_mean",
+    "speed_residual_sd",
+    "speed_residual_max",
+    "speed_residual_min",
+    "heading_cos_mean",
+    "heading_cos_sd",
+    "heading_cos_max",
+    "heading_cos_min",
+    "displacement_mean",
+    "displacement_sd",
+    "displacement_max",
+    "displacement_min",
+    "gap_mean",
+    "gap_sd",
+    "gap_max",
+    "gap_min"
+  ],
+  "frozen_tau_ours": 0.498,
+  "train_pairs": 3488
+}

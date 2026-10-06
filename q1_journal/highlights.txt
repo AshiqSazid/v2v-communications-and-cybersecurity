@@ -1,0 +1,10 @@
+Highlights
+
+Track-Keyed Sequential Evidence for Misbehaviour Detection
+and Impact Prioritisation in V2V Networks
+
+- Detection and impact ranking are separated; impact never alters the label.
+- Threshold frozen on 439 validation runs, applied unchanged to 1040 test runs.
+- Identity keying alerts on 83.9% of victim-exposed pairs; tracking cuts it to 23.9%
+- Constant-offset detection is an activation artefact, not steady-state behaviour.
+- Tree ensembles detect more on VeReMi; our rule false-alarms 3-10x less.

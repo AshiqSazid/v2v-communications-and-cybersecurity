@@ -1,0 +1,132 @@
+{
+  "control": {
+    "clean_fpr": 0.0,
+    "per_attack_tpr": {
+      "constoffset": 0.25305441014500746,
+      "dos": 0.8722018756213099,
+      "falsify": 0.9791604235772429,
+      "replay": 0.9339474495013798,
+      "revheading": 0.9608570197144343,
+      "slydos": 0.0,
+      "spoof": 0.5226963283298772
+    },
+    "pooled_tpr": 0.645988215269893,
+    "seed_count": 30
+  },
+  "detector": "sequential-score",
+  "note": "threshold frozen across arms; checks silenced, not retuned",
+  "removed": {
+    "heading": {
+      "clean_fpr": 0.0,
+      "delta_clean_fpr": 0.0,
+      "delta_pooled_tpr": -0.14910374790610298,
+      "per_attack_tpr": {
+        "constoffset": 0.24638679081930873,
+        "dos": 0.8722018756213099,
+        "falsify": 0.9772000819042859,
+        "replay": 0.9339474495013798,
+        "revheading": 0.0,
+        "slydos": 0.0,
+        "spoof": 0.4484550737002463
+      },
+      "pooled_tpr": 0.49688446736379005,
+      "seed_count": 30
+    },
+    "map": {
+      "clean_fpr": 0.0,
+      "delta_clean_fpr": 0.0,
+      "delta_pooled_tpr": -1.7379214459434245e-05,
+      "per_attack_tpr": {
+        "constoffset": 0.25305441014500746,
+        "dos": 0.8722018756213099,
+        "falsify": 0.9790387690760264,
+        "replay": 0.9339474495013798,
+        "revheading": 0.9608570197144343,
+        "slydos": 0.0,
+        "spoof": 0.5226963283298772
+      },
+      "pooled_tpr": 0.6459708360554336,
+      "seed_count": 30
+    },
+    "position": {
+      "clean_fpr": 0.0,
+      "delta_clean_fpr": 0.0,
+      "delta_pooled_tpr": -0.02296073184166425,
+      "per_attack_tpr": {
+        "constoffset": 0.11817637356229523,
+        "dos": 0.8722018756213099,
+        "falsify": 0.968069956324932,
+        "replay": 0.9339474495013798,
+        "revheading": 0.9608570197144343,
+        "slydos": 0.0,
+        "spoof": 0.5079397092732506
+      },
+      "pooled_tpr": 0.6230274834282288,
+      "seed_count": 30
+    },
+    "rate": {
+      "clean_fpr": 0.0,
+      "delta_clean_fpr": 0.0,
+      "delta_pooled_tpr": -0.1246002679459014,
+      "per_attack_tpr": {
+        "constoffset": 0.25305441014500746,
+        "dos": 0.0,
+        "falsify": 0.9791604235772429,
+        "replay": 0.9339474495013798,
+        "revheading": 0.9608570197144343,
+        "slydos": 0.0,
+        "spoof": 0.5226963283298772
+      },
+      "pooled_tpr": 0.5213879473239916,
+      "seed_count": 30
+    },
+    "replay": {
+      "clean_fpr": 0.0,
+      "delta_clean_fpr": 0.0,
+      "delta_pooled_tpr": -0.010177937346544819,
+      "per_attack_tpr": {
+        "constoffset": 0.25305441014500746,
+        "dos": 0.8722018756213099,
+        "falsify": 0.9791604235772429,
+        "replay": 0.8824017007448969,
+        "revheading": 0.9608570197144343,
+        "slydos": 0.0,
+        "spoof": 0.5029965156605463
+      },
+      "pooled_tpr": 0.6358102779233482,
+      "seed_count": 30
+    },
+    "speed": {
+      "clean_fpr": 0.0,
+      "delta_clean_fpr": 0.0,
+      "delta_pooled_tpr": -0.011614235683461649,
+      "per_attack_tpr": {
+        "constoffset": 0.24638679081930873,
+        "dos": 0.8722018756213099,
+        "falsify": 0.9779489811675381,
+        "replay": 0.9339474495013798,
+        "revheading": 0.9608570197144343,
+        "slydos": 0.0,
+        "spoof": 0.4492757402810488
+      },
+      "pooled_tpr": 0.6343739795864314,
+      "seed_count": 30
+    },
+    "stale": {
+      "clean_fpr": 0.0,
+      "delta_clean_fpr": 0.0,
+      "delta_pooled_tpr": -0.018351562567140878,
+      "per_attack_tpr": {
+        "constoffset": 0.25305441014500746,
+        "dos": 0.8722018756213099,
+        "falsify": 0.9791604235772429,
+        "replay": 0.8054865115313933,
+        "revheading": 0.9608570197144343,
+        "slydos": 0.0,
+        "spoof": 0.5226963283298772
+      },
+      "pooled_tpr": 0.6276366527027522,
+      "seed_count": 30
+    }
+  }
+}

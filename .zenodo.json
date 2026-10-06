@@ -1,0 +1,30 @@
+{
+  "title": "Risk-Aware V2V Misbehaviour Detection: simulator, frozen experiment plans, analysis and figure scripts",
+  "description": "<p>Research artifact for the manuscript <em>Risk-Aware V2V Misbehaviour Detection: Sequential Evidence, Impact Prioritisation, and Track-Based Attribution</em>.</p><p>Contains the ns-3.40 simulator source, the frozen validation and test plans with their RNG seeds, the threshold-selection artefact with input checksums, the merged summary and pair tables, the analysis and figure scripts, and the manifest recording executable, source, plan, threshold and analysis hashes together with the completed-run count.</p><p>The experiment comprises 1479 planned simulations: 439 validation runs across 8 arms, and 1040 held-out test runs across 34 arms in 12 families (33 arms at 30 RNG seeds plus one attacker-free reference arm at 50). The detection threshold is selected on the validation partition only and applied unchanged to a disjoint test seed range.</p><p>Raw per-reception trace files are not archived: they exceed 50 GB and are exactly regenerable from the shipped source, seeds and plans.</p>",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Sazid, Ashiq"
+    }
+  ],
+  "keywords": [
+    "vehicular networks",
+    "V2V",
+    "misbehaviour detection",
+    "plausibility checks",
+    "sequential evidence",
+    "risk assessment",
+    "ns-3",
+    "IEEE 802.11p"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/AshiqSazid/ieee_V2V_cyber",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Publishing this record while the manuscript is under double-blind review will break anonymity, because the creator name is the author's. Publish after acceptance, or keep the record restricted until then."
+}

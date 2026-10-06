@@ -1,0 +1,184 @@
+115 v4 traces in 30 unique RNG-seed blocks; scoreModel=reference; threshold=0.497 from results/v6/full/analysis/selected_threshold.json (v6_threshold_selection); decayHalfLife=3.43096s
+95% intervals resample RNG seeds; all attack arms with the same seed move together. Source-oracle is evaluation-only. Identity-contested uses only the receiver-observed network source address; it does not read oracle physical-source identity.
+
+Attack stratum: POOLED (seed blocks retain all attack arms)
+key            rule                stream TPR                    clean FPR                     owner TPR                     owner FPR                     victim-pair                   victim-ID                    
+claimed        range               0.580 [0.574,0.587] S=30      0.200 [0.194,0.206] S=30      0.474 [0.446,0.495] S=30      0.358 [0.333,0.391] S=30      0.588 [0.583,0.593] S=30      0.986 [0.979,0.993] S=30     
+claimed        sudden-appearance   0.087 [0.079,0.095] S=30      0.015 [0.013,0.017] S=30      0.040 [0.025,0.051] S=30      0.030 [0.026,0.033] S=30      0.084 [0.080,0.089] S=30      0.635 [0.610,0.658] S=30     
+claimed        two-of-seven        0.536 [0.483,0.623] S=30      0.000 [0.000,0.000] S=30      0.288 [0.276,0.303] S=30      0.222 [0.189,0.270] S=30      0.675 [0.661,0.690] S=30      0.972 [0.958,0.982] S=30     
+claimed        sequential-score    0.696 [0.680,0.719] S=30      0.000 [0.000,0.000] S=30      0.455 [0.414,0.487] S=30      0.246 [0.207,0.296] S=30      0.737 [0.722,0.754] S=30      0.972 [0.957,0.984] S=30     
+claimed        identity-contested  0.502 [0.394,0.619] S=30      0.000 [0.000,0.000] S=30      0.230 [0.185,0.296] S=30      0.238 [0.202,0.278] S=30      0.734 [0.718,0.748] S=30      0.974 [0.963,0.985] S=30     
+source-oracle  range               0.569 [0.563,0.575] S=30      0.194 [0.190,0.198] S=30      0.560 [0.554,0.565] S=30      0.194 [0.190,0.198] S=30      --                            --                           
+source-oracle  sudden-appearance   0.042 [0.027,0.054] S=30      0.015 [0.012,0.017] S=30      0.040 [0.026,0.052] S=30      0.015 [0.012,0.017] S=30      --                            --                           
+source-oracle  two-of-seven        0.410 [0.380,0.446] S=30      0.000 [0.000,0.000] S=30      0.393 [0.359,0.432] S=30      0.000 [0.000,0.000] S=30      --                            --                           
+source-oracle  sequential-score    0.530 [0.509,0.549] S=30      0.000 [0.000,0.000] S=30      0.508 [0.485,0.525] S=30      0.000 [0.000,0.000] S=30      --                            --                           
+source-oracle  identity-contested  0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      --                            --                           
+Paired contrast: claimed minus source-oracle
+rule                stream_tpr                    clean_fpr                     owner_tpr                     owner_fpr                    
+range               0.011 [0.007,0.017] S=30      0.005 [0.002,0.009] S=30      -0.086 [-0.113,-0.064] S=30   0.164 [0.136,0.197] S=30     
+sudden-appearance   0.045 [0.034,0.059] S=30      0.000 [-0.000,0.001] S=30     -0.000 [-0.003,0.003] S=30    0.015 [0.012,0.018] S=30     
+two-of-seven        0.126 [0.098,0.164] S=30      0.000 [0.000,0.000] S=30      -0.105 [-0.139,-0.083] S=30   0.222 [0.187,0.259] S=30     
+sequential-score    0.166 [0.134,0.212] S=30      0.000 [0.000,0.000] S=30      -0.053 [-0.070,-0.040] S=30   0.246 [0.209,0.295] S=30     
+identity-contested  0.502 [0.390,0.650] S=30      0.000 [0.000,0.000] S=30      0.230 [0.184,0.296] S=30      0.238 [0.201,0.279] S=30     
+
+Attack stratum: constoffset
+key            rule                stream TPR                    clean FPR                     owner TPR                     owner FPR                     victim-pair                   victim-ID                    
+claimed        range               0.798 [0.760,0.836] S=5       0.203 [0.192,0.214] S=5       0.777 [0.743,0.812] S=5       0.203 [0.193,0.213] S=5       --                            --                           
+claimed        sudden-appearance   0.363 [0.258,0.505] S=5       0.012 [0.005,0.022] S=5       0.348 [0.246,0.482] S=5       0.012 [0.005,0.021] S=5       --                            --                           
+claimed        two-of-seven        0.279 [0.223,0.354] S=5       0.000 [0.000,0.000] S=5       0.267 [0.205,0.341] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+claimed        sequential-score    0.279 [0.215,0.352] S=5       0.000 [0.000,0.000] S=5       0.267 [0.205,0.338] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+claimed        identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  range               0.798 [0.760,0.838] S=5       0.203 [0.192,0.213] S=5       0.777 [0.741,0.812] S=5       0.203 [0.193,0.212] S=5       --                            --                           
+source-oracle  sudden-appearance   0.363 [0.261,0.505] S=5       0.012 [0.005,0.021] S=5       0.348 [0.246,0.491] S=5       0.012 [0.005,0.022] S=5       --                            --                           
+source-oracle  two-of-seven        0.279 [0.215,0.356] S=5       0.000 [0.000,0.000] S=5       0.267 [0.205,0.340] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  sequential-score    0.279 [0.215,0.356] S=5       0.000 [0.000,0.000] S=5       0.267 [0.205,0.341] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+Paired contrast: claimed minus source-oracle
+rule                stream_tpr                    clean_fpr                     owner_tpr                     owner_fpr                    
+range               0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+sudden-appearance   0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+two-of-seven        0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+sequential-score    0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+
+Attack stratum: dos
+key            rule                stream TPR                    clean FPR                     owner TPR                     owner FPR                     victim-pair                   victim-ID                    
+claimed        range               0.632 [0.599,0.663] S=5       0.170 [0.151,0.188] S=5       0.627 [0.596,0.656] S=5       0.170 [0.151,0.189] S=5       --                            --                           
+claimed        sudden-appearance   0.001 [0.000,0.002] S=5       0.032 [0.024,0.040] S=5       0.001 [0.000,0.002] S=5       0.032 [0.024,0.039] S=5       --                            --                           
+claimed        two-of-seven        0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+claimed        sequential-score    0.873 [0.860,0.888] S=5       0.000 [0.000,0.000] S=5       0.843 [0.825,0.864] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+claimed        identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  range               0.632 [0.599,0.663] S=5       0.170 [0.149,0.189] S=5       0.627 [0.599,0.656] S=5       0.170 [0.151,0.187] S=5       --                            --                           
+source-oracle  sudden-appearance   0.001 [0.000,0.002] S=5       0.032 [0.024,0.039] S=5       0.001 [0.000,0.002] S=5       0.032 [0.024,0.039] S=5       --                            --                           
+source-oracle  two-of-seven        0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  sequential-score    0.873 [0.860,0.887] S=5       0.000 [0.000,0.000] S=5       0.843 [0.824,0.861] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+Paired contrast: claimed minus source-oracle
+rule                stream_tpr                    clean_fpr                     owner_tpr                     owner_fpr                    
+range               0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+sudden-appearance   0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+two-of-seven        0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+sequential-score    0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+
+Attack stratum: falsify
+key            rule                stream TPR                    clean FPR                     owner TPR                     owner FPR                     victim-pair                   victim-ID                    
+claimed        range               0.984 [0.978,0.991] S=5       0.203 [0.191,0.212] S=5       0.954 [0.940,0.968] S=5       0.203 [0.192,0.213] S=5       --                            --                           
+claimed        sudden-appearance   0.068 [0.047,0.086] S=5       0.012 [0.005,0.021] S=5       0.065 [0.047,0.083] S=5       0.012 [0.005,0.022] S=5       --                            --                           
+claimed        two-of-seven        0.981 [0.975,0.988] S=5       0.000 [0.000,0.000] S=5       0.938 [0.921,0.955] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+claimed        sequential-score    0.981 [0.976,0.987] S=5       0.000 [0.000,0.000] S=5       0.938 [0.924,0.954] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+claimed        identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  range               0.984 [0.978,0.990] S=5       0.203 [0.191,0.213] S=5       0.954 [0.940,0.968] S=5       0.203 [0.190,0.214] S=5       --                            --                           
+source-oracle  sudden-appearance   0.068 [0.047,0.091] S=5       0.012 [0.005,0.022] S=5       0.065 [0.045,0.083] S=5       0.012 [0.005,0.021] S=5       --                            --                           
+source-oracle  two-of-seven        0.981 [0.976,0.987] S=5       0.000 [0.000,0.000] S=5       0.938 [0.921,0.955] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  sequential-score    0.981 [0.976,0.987] S=5       0.000 [0.000,0.000] S=5       0.938 [0.921,0.955] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+Paired contrast: claimed minus source-oracle
+rule                stream_tpr                    clean_fpr                     owner_tpr                     owner_fpr                    
+range               0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+sudden-appearance   0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+two-of-seven        0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+sequential-score    0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+
+Attack stratum: none
+key            rule                stream TPR                    clean FPR                     owner TPR                     owner FPR                     victim-pair                   victim-ID                    
+claimed        range               --                            0.193 [0.190,0.197] S=30      --                            0.193 [0.190,0.197] S=30      --                            --                           
+claimed        sudden-appearance   --                            0.014 [0.013,0.016] S=30      --                            0.014 [0.013,0.016] S=30      --                            --                           
+claimed        two-of-seven        --                            0.000 [0.000,0.000] S=30      --                            0.000 [0.000,0.000] S=30      --                            --                           
+claimed        sequential-score    --                            0.000 [0.000,0.000] S=30      --                            0.000 [0.000,0.000] S=30      --                            --                           
+claimed        identity-contested  --                            0.000 [0.000,0.000] S=30      --                            0.000 [0.000,0.000] S=30      --                            --                           
+source-oracle  range               --                            0.193 [0.190,0.197] S=30      --                            0.193 [0.190,0.197] S=30      --                            --                           
+source-oracle  sudden-appearance   --                            0.014 [0.013,0.016] S=30      --                            0.014 [0.013,0.016] S=30      --                            --                           
+source-oracle  two-of-seven        --                            0.000 [0.000,0.000] S=30      --                            0.000 [0.000,0.000] S=30      --                            --                           
+source-oracle  sequential-score    --                            0.000 [0.000,0.000] S=30      --                            0.000 [0.000,0.000] S=30      --                            --                           
+source-oracle  identity-contested  --                            0.000 [0.000,0.000] S=30      --                            0.000 [0.000,0.000] S=30      --                            --                           
+Paired contrast: claimed minus source-oracle
+rule                stream_tpr                    clean_fpr                     owner_tpr                     owner_fpr                    
+range               --                            0.000 [0.000,0.000] S=30      --                            0.000 [0.000,0.000] S=30     
+sudden-appearance   --                            0.000 [0.000,0.000] S=30      --                            0.000 [0.000,0.000] S=30     
+two-of-seven        --                            0.000 [0.000,0.000] S=30      --                            0.000 [0.000,0.000] S=30     
+sequential-score    --                            0.000 [0.000,0.000] S=30      --                            0.000 [0.000,0.000] S=30     
+identity-contested  --                            0.000 [0.000,0.000] S=30      --                            0.000 [0.000,0.000] S=30     
+
+Attack stratum: replay
+key            rule                stream TPR                    clean FPR                     owner TPR                     owner FPR                     victim-pair                   victim-ID                    
+claimed        range               0.906 [0.899,0.913] S=30      0.217 [0.203,0.230] S=30      0.814 [0.794,0.832] S=30      0.793 [0.779,0.805] S=30      0.913 [0.905,0.921] S=30      0.991 [0.984,0.997] S=30     
+claimed        sudden-appearance   0.032 [0.029,0.036] S=30      0.015 [0.012,0.019] S=30      0.041 [0.034,0.049] S=30      0.030 [0.027,0.034] S=30      0.029 [0.025,0.032] S=30      0.390 [0.355,0.433] S=30     
+claimed        two-of-seven        0.805 [0.798,0.813] S=30      0.000 [0.000,0.000] S=30      0.616 [0.592,0.641] S=30      0.686 [0.674,0.701] S=30      0.846 [0.838,0.854] S=30      0.995 [0.990,0.999] S=30     
+claimed        sequential-score    0.934 [0.930,0.938] S=30      0.000 [0.000,0.000] S=30      0.795 [0.778,0.810] S=30      0.773 [0.760,0.787] S=30      0.952 [0.948,0.955] S=30      0.996 [0.992,0.999] S=30     
+claimed        identity-contested  0.856 [0.849,0.863] S=30      0.000 [0.000,0.000] S=30      0.651 [0.625,0.674] S=30      0.730 [0.716,0.743] S=30      0.900 [0.894,0.906] S=30      0.997 [0.993,1.000] S=30     
+source-oracle  range               0.948 [0.942,0.954] S=30      0.194 [0.189,0.200] S=30      0.918 [0.910,0.926] S=30      0.194 [0.190,0.200] S=30      --                            --                           
+source-oracle  sudden-appearance   0.030 [0.026,0.035] S=30      0.014 [0.012,0.016] S=30      0.030 [0.025,0.034] S=30      0.014 [0.012,0.016] S=30      --                            --                           
+source-oracle  two-of-seven        0.953 [0.946,0.959] S=30      0.000 [0.000,0.000] S=30      0.912 [0.906,0.919] S=30      0.000 [0.000,0.000] S=30      --                            --                           
+source-oracle  sequential-score    0.985 [0.982,0.988] S=30      0.000 [0.000,0.000] S=30      0.944 [0.938,0.950] S=30      0.000 [0.000,0.000] S=30      --                            --                           
+source-oracle  identity-contested  0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      --                            --                           
+Paired contrast: claimed minus source-oracle
+rule                stream_tpr                    clean_fpr                     owner_tpr                     owner_fpr                    
+range               -0.042 [-0.051,-0.033] S=30   0.022 [0.009,0.035] S=30      -0.105 [-0.126,-0.084] S=30   0.599 [0.587,0.611] S=30     
+sudden-appearance   0.002 [-0.003,0.006] S=30     0.001 [-0.002,0.005] S=30     0.012 [0.003,0.019] S=30      0.016 [0.014,0.018] S=30     
+two-of-seven        -0.147 [-0.155,-0.139] S=30   0.000 [0.000,0.000] S=30      -0.296 [-0.323,-0.275] S=30   0.686 [0.674,0.700] S=30     
+sequential-score    -0.051 [-0.055,-0.047] S=30   0.000 [0.000,0.000] S=30      -0.149 [-0.167,-0.133] S=30   0.773 [0.759,0.787] S=30     
+identity-contested  0.856 [0.849,0.863] S=30      0.000 [0.000,0.000] S=30      0.651 [0.626,0.673] S=30      0.730 [0.718,0.743] S=30     
+
+Attack stratum: revheading
+key            rule                stream TPR                    clean FPR                     owner TPR                     owner FPR                     victim-pair                   victim-ID                    
+claimed        range               0.182 [0.157,0.204] S=5       0.203 [0.192,0.214] S=5       0.194 [0.174,0.213] S=5       0.203 [0.192,0.213] S=5       --                            --                           
+claimed        sudden-appearance   0.010 [0.006,0.015] S=5       0.012 [0.005,0.022] S=5       0.010 [0.006,0.015] S=5       0.012 [0.005,0.021] S=5       --                            --                           
+claimed        two-of-seven        0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+claimed        sequential-score    0.963 [0.960,0.966] S=5       0.000 [0.000,0.000] S=5       0.920 [0.908,0.934] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+claimed        identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  range               0.182 [0.159,0.204] S=5       0.203 [0.192,0.213] S=5       0.194 [0.174,0.214] S=5       0.203 [0.193,0.213] S=5       --                            --                           
+source-oracle  sudden-appearance   0.010 [0.006,0.016] S=5       0.012 [0.005,0.022] S=5       0.010 [0.006,0.015] S=5       0.012 [0.005,0.021] S=5       --                            --                           
+source-oracle  two-of-seven        0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  sequential-score    0.963 [0.960,0.966] S=5       0.000 [0.000,0.000] S=5       0.920 [0.907,0.933] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+Paired contrast: claimed minus source-oracle
+rule                stream_tpr                    clean_fpr                     owner_tpr                     owner_fpr                    
+range               0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+sudden-appearance   0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+two-of-seven        0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+sequential-score    0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+
+Attack stratum: slydos
+key            rule                stream TPR                    clean FPR                     owner TPR                     owner FPR                     victim-pair                   victim-ID                    
+claimed        range               0.259 [0.226,0.281] S=5       0.195 [0.185,0.205] S=5       0.268 [0.235,0.294] S=5       0.195 [0.183,0.204] S=5       --                            --                           
+claimed        sudden-appearance   0.001 [0.000,0.003] S=5       0.010 [0.007,0.014] S=5       0.001 [0.000,0.003] S=5       0.010 [0.007,0.014] S=5       --                            --                           
+claimed        two-of-seven        0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+claimed        sequential-score    0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+claimed        identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  range               0.259 [0.230,0.283] S=5       0.195 [0.185,0.204] S=5       0.268 [0.236,0.294] S=5       0.195 [0.184,0.205] S=5       --                            --                           
+source-oracle  sudden-appearance   0.001 [0.000,0.003] S=5       0.010 [0.007,0.014] S=5       0.001 [0.000,0.003] S=5       0.010 [0.007,0.014] S=5       --                            --                           
+source-oracle  two-of-seven        0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  sequential-score    0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+source-oracle  identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       --                            --                           
+Paired contrast: claimed minus source-oracle
+rule                stream_tpr                    clean_fpr                     owner_tpr                     owner_fpr                    
+range               0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+sudden-appearance   0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+two-of-seven        0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+sequential-score    0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+identity-contested  0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5       0.000 [0.000,0.000] S=5      
+
+Attack stratum: spoof
+key            rule                stream TPR                    clean FPR                     owner TPR                     owner FPR                     victim-pair                   victim-ID                    
+claimed        range               0.262 [0.251,0.271] S=30      0.193 [0.187,0.199] S=30      0.058 [0.051,0.064] S=30      0.225 [0.220,0.229] S=30      0.262 [0.252,0.272] S=30      0.981 [0.968,0.992] S=30     
+claimed        sudden-appearance   0.139 [0.128,0.150] S=30      0.015 [0.012,0.017] S=30      0.001 [0.000,0.003] S=30      0.056 [0.053,0.058] S=30      0.139 [0.130,0.149] S=30      0.880 [0.844,0.914] S=30     
+claimed        two-of-seven        0.504 [0.476,0.533] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.163 [0.153,0.173] S=30      0.504 [0.477,0.537] S=30      0.948 [0.919,0.971] S=30     
+claimed        sequential-score    0.523 [0.496,0.555] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.169 [0.159,0.181] S=30      0.523 [0.497,0.553] S=30      0.948 [0.918,0.972] S=30     
+claimed        identity-contested  0.567 [0.540,0.594] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.184 [0.174,0.194] S=30      0.567 [0.539,0.595] S=30      0.951 [0.927,0.973] S=30     
+source-oracle  range               0.188 [0.180,0.196] S=30      0.194 [0.189,0.199] S=30      0.197 [0.189,0.204] S=30      0.194 [0.190,0.199] S=30      --                            --                           
+source-oracle  sudden-appearance   0.014 [0.010,0.017] S=30      0.014 [0.012,0.016] S=30      0.013 [0.010,0.017] S=30      0.014 [0.012,0.016] S=30      --                            --                           
+source-oracle  two-of-seven        0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      --                            --                           
+source-oracle  sequential-score    0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      --                            --                           
+source-oracle  identity-contested  0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      --                            --                           
+Paired contrast: claimed minus source-oracle
+rule                stream_tpr                    clean_fpr                     owner_tpr                     owner_fpr                    
+range               0.074 [0.067,0.082] S=30      -0.002 [-0.004,0.001] S=30    -0.139 [-0.148,-0.130] S=30   0.031 [0.027,0.034] S=30     
+sudden-appearance   0.125 [0.116,0.135] S=30      0.000 [-0.001,0.001] S=30     -0.012 [-0.016,-0.009] S=30   0.041 [0.038,0.044] S=30     
+two-of-seven        0.504 [0.473,0.531] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.163 [0.152,0.174] S=30     
+sequential-score    0.523 [0.495,0.553] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.169 [0.159,0.179] S=30     
+identity-contested  0.567 [0.541,0.595] S=30      0.000 [0.000,0.000] S=30      0.000 [0.000,0.000] S=30      0.184 [0.174,0.194] S=30     
+
+Definitions: hostile-stream truth is any explicitly malicious message, never attacker membership. A positive receives credit only for a new false-to-true transition at or after its first malicious reception. Pre-attack messages remain honest detector history. Owner truth uses explicit claimed-owner/source attacker labels; victim rates require a new post-onset transition on honest claimed identities carrying malicious messages.

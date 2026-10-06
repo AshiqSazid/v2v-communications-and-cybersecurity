@@ -1,0 +1,7 @@
+attack,alerting_pairs,share_spoofing,share_tampering,share_repudiation,share_denial_of_service,count_spoofing,count_tampering,count_repudiation,count_denial_of_service,ambiguous_share
+Position falsification,8005,0.996627,0.003373,0.000000,0.000000,7978,27,0,0,0.000000
+Reversed heading,7856,0.000000,1.000000,0.000000,0.000000,0,7856,0,0,0.000000
+Flooding,7428,0.000000,0.000000,0.000000,1.000000,0,0,0,7428,0.000000
+Replay,26123,0.000000,0.000000,0.980477,0.019523,0,0,25613,510,0.009379
+Identity spoofing,3862,0.331176,0.145520,0.375971,0.147333,1279,562,1452,569,0.077162
+Constant offset,2059,0.973774,0.026226,0.000000,0.000000,2005,54,0,0,0.000000

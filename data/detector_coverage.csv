@@ -1,0 +1,16 @@
+attack_type,stride_class,detector_check,coverage,is_gap,rationale
+Time-Delay Attack,S_REPUDIATION,CHK_STALENESS,full,0,Delayed delivery inflates (now - txTime) beyond MAX_AGE.
+Constant Position Offset,S_SPOOFING,CHK_MAP_BOUNDS,partial,0,"A fixed offset keeps the trajectory internally consistent: implied speed stays plausible, so POSITION_JUMP and SPEED_MISMATCH never fire. Only detected if the offset pushes the claim off-road."
+Random Position Offset,S_SPOOFING,CHK_POSITION_JUMP,full,0,Re-randomised position each beacon implies impossible speed.
+Position Mirroring,S_SPOOFING,CHK_MAP_BOUNDS,partial,0,Mirrored track is smooth and self-consistent; detected only when the mirrored position lands outside the road polygon.
+Constant Speed Offset,S_TAMPERING,CHK_SPEED_MISMATCH,full,0,Asserted speed diverges from displacement-implied speed.
+Random Speed Offset,S_TAMPERING,CHK_SPEED_MISMATCH,full,0,Asserted speed diverges from displacement-implied speed.
+Zero-Speed Report,S_TAMPERING,CHK_SPEED_MISMATCH,full,0,Claims v=0 while position advances.
+Sudden Constant Speed,S_TAMPERING,CHK_SPEED_MISMATCH,partial,0,Fires while asserted and implied speed disagree; a slow ramp inside SPEED_TOL = 15 m/s evades it.
+Reversed Heading,S_TAMPERING,CHK_HEADING,full,0,The implemented direction-consistency check compares the asserted velocity vector with displacement between sufficiently separated beacons; reversing the vector makes their cosine negative.
+Feigned Braking,S_TAMPERING,-,none,1,GAP. Kinematics remain physically plausible; only the event claim is false. Needs corroboration against neighbour reports.
+Acceleration Multiplication,S_TAMPERING,CHK_SPEED_MISMATCH,partial,0,Detected once the scaled acceleration drives asserted speed past SPEED_TOL; small multipliers evade it.
+Sudden Stop,S_TAMPERING,-,none,1,"GAP. A stop is physically achievable, so no plausibility check is violated. Needs event corroboration or deceleration-rate bounds."
+Denial-of-Service Attack,S_DOS,CHK_RATE,full,0,Beacon rate exceeds RATE_LIMIT = 20 msg/s per identity.
+Traffic-Congestion Sybil,S_SPOOFING,-,none,1,GAP. Each fabricated identity is individually plausible. Needs an identity-density or co-location check across neighbours.
+Data-Replay Attack,S_REPUDIATION,CHK_REPLAY,full,0,Duplicate sequence number and non-monotonic timestamp.

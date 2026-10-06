@@ -1,0 +1,14 @@
+{
+  "binary_sha256": "120a8b7004ccdbe36bb04d5ab910890c23f22269e855776c264494000a3f5711",
+  "duration_s": 0.285556897000788,
+  "experiment_id": "test__mixedhard_prevalence__mixedhard_frac_0p2__seed_9101",
+  "finished_utc": "2026-08-02T17:03:34+00:00",
+  "pair_rows": 18,
+  "pairs_sha256": "98959f23ad33a2b28b2f2088d894614e688373975facfb63af771c923ddd6f6a",
+  "schema": "v6",
+  "status": "complete",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "82205c9c7b678dec85586d88aef1915d84638050a1ce845e6d8291baaa84e6e2",
+  "summary_sha256": "2234a4ffa1d5d42dff178e3e8bb8d8b804dc057c174ef54d932ebf981e47f537",
+  "trace_rows": 0
+}

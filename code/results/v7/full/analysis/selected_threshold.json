@@ -1,0 +1,38 @@
+{
+  "candidate_thresholds": 1001,
+  "clean_fpr_constraint": {
+    "confidence": 0.95,
+    "estimand": "P(a benign validation RNG seed has >=1 clean false positive)",
+    "independence_unit": "RNG seed",
+    "maximum_one_sided_upper": 0.01,
+    "method": "exact one-sided Clopper-Pearson binomial bound",
+    "relation_to_pair_fpr": "the seed any-FP indicator upper-bounds that seed's clean-pair FPR, so its population mean is a conservative proxy"
+  },
+  "configured_threshold_summary_recomputation": "verified from pair crossing intervals/full-window peaks for every validation run before selection",
+  "constraint_estimand": "P(benign validation run has >=1 clean-pair false positive)",
+  "created_utc": "2026-08-02T13:16:57+00:00",
+  "endpoint_statistic": "window_peak_score",
+  "feasible_thresholds": 504,
+  "pairs_sha256": "3ff4ec44ae5af91091fe05fcbe1cd6751a3db72de351d8fc7536a22b346c1ef7",
+  "prediction_rule": "window_peak_score > threshold, applied identically to malicious and non-malicious streams over the evaluation window W = [max(warmup, attack_start + onset_blank), sim_time]; pairs with no reception inside W are excluded from every arm",
+  "reported_clean_fpr_estimand": "per-clean-pair false-positive rate within attack runs",
+  "schema": "v6_threshold_selection",
+  "selection_partition": "validation only",
+  "selection_rule": "maximize macro F1 across RNG-seed blocks subject to the exact one-sided seed-level upper confidence bound on P(a benign validation seed has any clean false positive); ties choose lower upper bound, lower empirical FPR, then higher threshold",
+  "summary_sha256": "886173f353ee18eef74397503c4671204fd770b8f029db90829b4b708aa1de73",
+  "threshold": 0.497,
+  "threshold_grid": {
+    "endpoints_included": true,
+    "maximum": 1.0,
+    "minimum": 0.0,
+    "step": 0.001
+  },
+  "validation_clean_fpr_upper": 0.009969146792899269,
+  "validation_clean_seed_any_fp_events": 0,
+  "validation_clean_seed_blocks": 299,
+  "validation_macro_clean_fpr": 0.0,
+  "validation_macro_f1": 0.8384052724225171,
+  "validation_pairs": 984228,
+  "validation_positive_seed_blocks": 20,
+  "validation_runs": 439
+}

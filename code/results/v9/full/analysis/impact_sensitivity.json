@@ -1,0 +1,38 @@
+{
+  "discordance_vs_score": {
+    "alerts": 55333,
+    "ci95_high": 0.3001530813124262,
+    "ci95_low": 0.27591393873067394,
+    "mean": 0.2879603283572602,
+    "note": "fraction of alert comparisons where Q and S disagree on order; held-out pure-attack family only",
+    "seeds": 30
+  },
+  "tau_compressed": {
+    "ci95_high": 0.9551321660866248,
+    "ci95_low": 0.9466892151988799,
+    "mean": 0.9510139363139412,
+    "min": 0.9275490405225572,
+    "seeds": 30
+  },
+  "tau_reversed": {
+    "ci95_high": -0.6999366873642523,
+    "ci95_low": -0.721736765364358,
+    "mean": -0.7111595806597908,
+    "min": -0.7669659459172289,
+    "seeds": 30
+  },
+  "tau_stretched": {
+    "ci95_high": 0.9989325368927684,
+    "ci95_low": 0.9963398287169173,
+    "mean": 0.997751668201538,
+    "min": 0.9839461473939034,
+    "seeds": 30
+  },
+  "tau_uniform": {
+    "ci95_high": 0.28248872839272127,
+    "ci95_low": 0.25300197504278604,
+    "mean": 0.2678137046114749,
+    "min": 0.1879110339421047,
+    "seeds": 30
+  }
+}

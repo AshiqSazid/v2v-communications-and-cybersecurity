@@ -1,0 +1,14 @@
+{
+  "binary_sha256": "120a8b7004ccdbe36bb04d5ab910890c23f22269e855776c264494000a3f5711",
+  "duration_s": 0.38420370099993306,
+  "experiment_id": "test__score_variant__reference_half_life_1p351__seed_9101",
+  "finished_utc": "2026-08-02T17:03:34+00:00",
+  "pair_rows": 12,
+  "pairs_sha256": "1cd242685b7889aff444154d5e0400689915c1b204c5fd961574f37b3f8113a6",
+  "schema": "v6",
+  "status": "complete",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "08348a714defe63b2f36c54460f15a142ddb3dc6a511db036afb231dae3bdfaa",
+  "summary_sha256": "48a44f2c2349ddf2d3e5faaaba4015601753268fe305981cce07258481c6a5ea",
+  "trace_rows": 0
+}

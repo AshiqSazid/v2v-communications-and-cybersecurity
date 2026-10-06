@@ -1,0 +1,14 @@
+{
+  "binary_sha256": "120a8b7004ccdbe36bb04d5ab910890c23f22269e855776c264494000a3f5711",
+  "duration_s": 0.21663700999852153,
+  "experiment_id": "test__steady_state__pure_constoffset_steady__seed_9101",
+  "finished_utc": "2026-08-02T17:03:33+00:00",
+  "pair_rows": 11,
+  "pairs_sha256": "3bfcb8a313b4caa29a175e64340f215fc09b19d587274eb7db0a3c230a06dcd4",
+  "schema": "v6",
+  "status": "complete",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "9e1d42e98578c276097b3ebd96d76a9e0cddc61b2e2aad612c98f0b54d6f2126",
+  "summary_sha256": "5beb85abcea7a948424d17e0b67087fdb5c95685add5a7b062ebaf1a5f27c9a4",
+  "trace_rows": 0
+}

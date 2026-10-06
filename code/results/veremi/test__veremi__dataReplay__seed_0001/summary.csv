@@ -1,0 +1,2 @@
+schema,n,frac,n_attackers,attack,run,sim_time,interval,detector,score_model,mobility,null_ev,naive_th,prior,threshold,decay,decay_half_life_s,warmup,attack_start_s,comm_range,gps_sigma,detector_gps_sigma,spd_sigma,clock_sigma,bsm_bytes,eval_window_start_s
+v6,476,0.19958,95,replay,1,7198.265901089,0.1,1,reference,veremi,0,0,0.05,0.498,-1,3.43096184915,5.0,0,300.0,2.0,2.0,0.5,0.0,320,5.0

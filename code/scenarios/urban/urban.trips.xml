@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-02 22:00:39.624040 by Eclipse SUMO randomTrips.py v1.27.1
+<configuration>
+    <net-file value="scenarios/urban/urban.net.xml"/>
+    <output-trip-file value="scenarios/urban/urban.trips.xml"/>
+    <route-file value="scenarios/urban/urban.rou.xml"/>
+    <trip-attributes value="departSpeed=&quot;max&quot; departLane=&quot;best&quot;"/>
+    <seed value="1"/>
+    <end value="60.0"/>
+    <period value="0.8571"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="0" depart="0.00" from="A3B3" to="E0D0" departSpeed="max" departLane="best"/>
+    <trip id="1" depart="0.86" from="D3D2" to="B2A2" departSpeed="max" departLane="best"/>
+    <trip id="2" depart="1.71" from="C2C1" to="C1C0" departSpeed="max" departLane="best"/>
+    <trip id="3" depart="2.57" from="D1C1" to="D3E3" departSpeed="max" departLane="best"/>
+    <trip id="4" depart="3.43" from="A2B2" to="A1A0" departSpeed="max" departLane="best"/>
+    <trip id="5" depart="4.29" from="D4E4" to="C1B1" departSpeed="max" departLane="best"/>
+    <trip id="6" depart="5.14" from="D3C3" to="A0A1" departSpeed="max" departLane="best"/>
+    <trip id="7" depart="6.00" from="C1C0" to="D2D1" departSpeed="max" departLane="best"/>
+    <trip id="8" depart="6.86" from="B1B2" to="E3D3" departSpeed="max" departLane="best"/>
+    <trip id="9" depart="7.71" from="E2D2" to="A1A0" departSpeed="max" departLane="best"/>
+    <trip id="10" depart="8.57" from="A1A0" to="C3C2" departSpeed="max" departLane="best"/>
+    <trip id="11" depart="9.43" from="E3D3" to="B4C4" departSpeed="max" departLane="best"/>
+    <trip id="12" depart="10.29" from="B1B0" to="C0D0" departSpeed="max" departLane="best"/>
+    <trip id="13" depart="11.14" from="A1A0" to="B1B0" departSpeed="max" departLane="best"/>
+    <trip id="14" depart="12.00" from="C1C0" to="C2C1" departSpeed="max" departLane="best"/>
+    <trip id="15" depart="12.86" from="B1B2" to="B1B2" departSpeed="max" departLane="best"/>
+    <trip id="16" depart="13.71" from="B1B0" to="C1C2" departSpeed="max" departLane="best"/>
+    <trip id="17" depart="14.57" from="B2C2" to="A0B0" departSpeed="max" departLane="best"/>
+    <trip id="18" depart="15.43" from="E0D0" to="C3C4" departSpeed="max" departLane="best"/>
+    <trip id="19" depart="16.28" from="D0E0" to="B0B1" departSpeed="max" departLane="best"/>
+    <trip id="20" depart="17.14" from="E4E3" to="E0E1" departSpeed="max" departLane="best"/>
+    <trip id="21" depart="18.00" from="A3A4" to="B3B4" departSpeed="max" departLane="best"/>
+    <trip id="22" depart="18.86" from="D2D1" to="D2C2" departSpeed="max" departLane="best"/>
+    <trip id="23" depart="19.71" from="E2E3" to="C0D0" departSpeed="max" departLane="best"/>
+    <trip id="24" depart="20.57" from="D4E4" to="D1D0" departSpeed="max" departLane="best"/>
+    <trip id="25" depart="21.43" from="B3A3" to="C4C3" departSpeed="max" departLane="best"/>
+    <trip id="26" depart="22.28" from="E1E0" to="E0D0" departSpeed="max" departLane="best"/>
+    <trip id="27" depart="23.14" from="C2C3" to="C4C3" departSpeed="max" departLane="best"/>
+    <trip id="28" depart="24.00" from="A1A0" to="B1C1" departSpeed="max" departLane="best"/>
+    <trip id="29" depart="24.86" from="D3E3" to="C0D0" departSpeed="max" departLane="best"/>
+    <trip id="30" depart="25.71" from="B0A0" to="C3C2" departSpeed="max" departLane="best"/>
+    <trip id="31" depart="26.57" from="D2C2" to="D1D0" departSpeed="max" departLane="best"/>
+    <trip id="32" depart="27.43" from="B4B3" to="C1C0" departSpeed="max" departLane="best"/>
+    <trip id="33" depart="28.28" from="C2C3" to="D3D4" departSpeed="max" departLane="best"/>
+    <trip id="34" depart="29.14" from="C2D2" to="C0B0" departSpeed="max" departLane="best"/>
+    <trip id="35" depart="30.00" from="C2C1" to="A1A0" departSpeed="max" departLane="best"/>
+    <trip id="36" depart="30.86" from="A1A2" to="D2C2" departSpeed="max" departLane="best"/>
+    <trip id="37" depart="31.71" from="E4D4" to="C4C3" departSpeed="max" departLane="best"/>
+    <trip id="38" depart="32.57" from="C0B0" to="B0A0" departSpeed="max" departLane="best"/>
+    <trip id="39" depart="33.43" from="C2C3" to="E4D4" departSpeed="max" departLane="best"/>
+    <trip id="40" depart="34.28" from="D3D2" to="C3C2" departSpeed="max" departLane="best"/>
+    <trip id="41" depart="35.14" from="E0E1" to="B1B2" departSpeed="max" departLane="best"/>
+    <trip id="42" depart="36.00" from="C2D2" to="E3E2" departSpeed="max" departLane="best"/>
+    <trip id="43" depart="36.86" from="C4B4" to="C1C2" departSpeed="max" departLane="best"/>
+    <trip id="44" depart="37.71" from="B2B1" to="C3C2" departSpeed="max" departLane="best"/>
+    <trip id="45" depart="38.57" from="E3E2" to="A0A1" departSpeed="max" departLane="best"/>
+    <trip id="46" depart="39.43" from="D3D4" to="D4D3" departSpeed="max" departLane="best"/>
+    <trip id="47" depart="40.28" from="E1E0" to="D2E2" departSpeed="max" departLane="best"/>
+    <trip id="48" depart="41.14" from="D4C4" to="C2D2" departSpeed="max" departLane="best"/>
+    <trip id="49" depart="42.00" from="C3C4" to="C1B1" departSpeed="max" departLane="best"/>
+    <trip id="50" depart="42.86" from="A1B1" to="E1D1" departSpeed="max" departLane="best"/>
+    <trip id="51" depart="43.71" from="C3D3" to="B0C0" departSpeed="max" departLane="best"/>
+    <trip id="52" depart="44.57" from="C2C3" to="C2B2" departSpeed="max" departLane="best"/>
+    <trip id="53" depart="45.43" from="B4A4" to="B3C3" departSpeed="max" departLane="best"/>
+    <trip id="54" depart="46.28" from="C3C2" to="D0C0" departSpeed="max" departLane="best"/>
+    <trip id="55" depart="47.14" from="C4D4" to="C1C2" departSpeed="max" departLane="best"/>
+    <trip id="56" depart="48.00" from="A1A0" to="B1B2" departSpeed="max" departLane="best"/>
+    <trip id="57" depart="48.85" from="B0B1" to="C4B4" departSpeed="max" departLane="best"/>
+    <trip id="58" depart="49.71" from="E0E1" to="D3E3" departSpeed="max" departLane="best"/>
+    <trip id="59" depart="50.57" from="D3E3" to="D4D3" departSpeed="max" departLane="best"/>
+    <trip id="60" depart="51.43" from="B2A2" to="E0D0" departSpeed="max" departLane="best"/>
+    <trip id="61" depart="52.28" from="D1D0" to="A2A3" departSpeed="max" departLane="best"/>
+    <trip id="62" depart="53.14" from="A0B0" to="A0B0" departSpeed="max" departLane="best"/>
+    <trip id="63" depart="54.00" from="D3C3" to="B1C1" departSpeed="max" departLane="best"/>
+    <trip id="64" depart="54.85" from="A3A2" to="D0C0" departSpeed="max" departLane="best"/>
+    <trip id="65" depart="55.71" from="B3C3" to="A2A1" departSpeed="max" departLane="best"/>
+    <trip id="66" depart="56.57" from="A4B4" to="C3B3" departSpeed="max" departLane="best"/>
+    <trip id="67" depart="57.43" from="B0A0" to="B2B1" departSpeed="max" departLane="best"/>
+    <trip id="68" depart="58.28" from="D2C2" to="C1C2" departSpeed="max" departLane="best"/>
+    <trip id="69" depart="59.14" from="B3B2" to="C1D1" departSpeed="max" departLane="best"/>
+    <trip id="70" depart="60.00" from="C0D0" to="B0C0" departSpeed="max" departLane="best"/>
+</routes>

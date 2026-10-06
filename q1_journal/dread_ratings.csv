@@ -1,0 +1,7 @@
+stride_class,rater1_D,rater1_R,rater1_E,rater1_A,rater1_Ds
+Spoofing,8,6.5,10,10,2
+Tampering,7.75,6.5,6.375,9.125,4.125
+Repudiation,7.75,6.5,2.5,9.5,2
+InformationDisclosure,8,6,2,8,2
+DenialOfService,7.5,6.5,6,9,8
+ElevationOfPrivilege,8,6,2,9,2

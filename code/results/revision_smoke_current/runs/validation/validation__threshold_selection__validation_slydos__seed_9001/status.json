@@ -1,0 +1,14 @@
+{
+  "binary_sha256": "120a8b7004ccdbe36bb04d5ab910890c23f22269e855776c264494000a3f5711",
+  "duration_s": 0.34613909800100373,
+  "experiment_id": "validation__threshold_selection__validation_slydos__seed_9001",
+  "finished_utc": "2026-08-02T17:03:29+00:00",
+  "pair_rows": 18,
+  "pairs_sha256": "e4b592c133665083f3f82a2836525367339b8a24d75df183880acf51c053b0f8",
+  "schema": "v6",
+  "status": "complete",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "38c43010396a503e40f07d4927fd68146ffe8373d7ed5bfd1aa34985d8f4b1db",
+  "summary_sha256": "3f31a77ea719de209020927a4979e867d5a83afd7122cc5e7a82d0cd7d1f176b",
+  "trace_rows": 0
+}

@@ -1,0 +1,581 @@
+stage,family,arm,metric,metric_n,mean,ci95_low,ci95_high,sd,event_count,trial_count,zero_event_upper95,zero_event_seed_events,zero_event_seed_trials,zero_event_bound_unit,ci_unit,ci_method
+test,benign,benign,stream_tpr,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,stream_fpr,50,0.0,0.0,0.0,0.0,0,123484,0.058155079116972264,0,50,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,stream_precision,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,stream_f1,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,owner_tpr,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,owner_fpr,50,0.0,0.0,0.0,0.0,0,123484,0.058155079116972264,0,50,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,owner_f1,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,contested_tpr,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,contested_fpr,50,0.0,0.0,0.0,0.0,0,123484,0.058155079116972264,0,50,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,contested_f1,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,clean_fpr,50,0.0,0.0,0.0,0.0,0,123484,0.058155079116972264,0,50,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,victim_pair_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,victim_id_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,victim_pair_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,victim_id_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,track_stream_tpr,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,track_stream_fpr,50,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,victim_pair_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,victim_id_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,malicious_opportunity_reception_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,stream_peak_auc,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,owner_peak_auc,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,ttd_detected_frac,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,benign,benign,latency_ms,50,1.1969655663130148,1.1902649886100356,1.203666144015994,0.02357724082235613,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,benign,benign,pdr,50,0.4672517668665407,0.46444658785516807,0.47006485045532975,0.010320177804285381,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,stream_tpr,30,0.7575675276173927,0.7387501681675461,0.7753885789257896,0.05149723268400059,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,stream_fpr,30,0.0,0.0,0.0,0.0,0,54450,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,stream_f1,30,0.8611040514422543,0.8488369355995748,0.8724596668203438,0.033901292137377276,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,owner_tpr,30,0.6494490909238404,0.6200631436824595,0.679313499633029,0.08383843687211127,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,owner_fpr,30,0.104364307675273,0.09176620026065634,0.11770545014236578,0.03685966223782684,6551,62262,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,owner_f1,30,0.4616400179759695,0.4324895417350447,0.48941176947125614,0.08161020039198152,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,contested_tpr,30,0.4432196029321685,0.41197910813521366,0.47442025457057596,0.08932272594449041,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,contested_fpr,30,0.0,0.0,0.0,0.0,0,54450,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,contested_f1,30,0.60901362522958,0.5776265158862322,0.63856942887443,0.0872292756171539,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,clean_fpr,30,0.0,0.0,0.0,0.0,0,54447,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,victim_pair_post_onset_alert_rate,30,0.8340986261095831,0.8166867002457967,0.8512861163858039,0.05087207860463303,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,victim_id_post_onset_alert_rate,30,0.9853549121443858,0.9736424995569734,0.9952153110047847,0.030483580613908556,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,victim_pair_track_alert_rate,30,0.03720856658465342,0.023197856034681913,0.052395895899852794,0.042629547086710434,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,victim_id_track_alert_rate,30,0.06817784651995178,0.050360878229957176,0.08682403474936369,0.05089940347737625,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,track_stream_tpr,30,0.7570599104729191,0.7385940703883356,0.7742681233301049,0.05136954192095686,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,victim_pair_contested_rate,30,0.6907713188522896,0.6550963411033859,0.7276332581615673,0.10122589464980235,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,victim_id_contested_rate,30,0.9820449706239178,0.9705573034665141,0.9922456140350877,0.031314156837258626,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,malicious_opportunity_reception_rate,30,0.8570322373903491,0.8388816266207555,0.8742843933377454,0.051371928380206704,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,stream_peak_auc,30,0.910658131575883,0.9006071856576214,0.9202590002320279,0.02816278167539603,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,owner_peak_auc,30,0.7853827214790402,0.768599472310994,0.8027884880375257,0.048332623549121836,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,ttd_detected_frac,30,0.7575675276173927,0.7384020700009896,0.7750964314193891,0.05149723268400059,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,latency_ms,30,1.203890676654005,1.1924486347723378,1.2153327185356722,0.030642350929223044,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p1,pdr,30,0.46591146677962786,0.4614592841503147,0.47063986363317367,0.012934258499053988,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,stream_tpr,30,0.7641812030944973,0.7499554362467061,0.7790051602012014,0.041090932189819185,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,stream_fpr,30,0.0,0.0,0.0,0.0,0,39433,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,stream_f1,30,0.865734815183,0.8563274559979456,0.8750563289790985,0.02642445381964755,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,owner_tpr,30,0.676314836760217,0.6550756002096041,0.6983894288076028,0.06170406328016162,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,owner_fpr,30,0.1875826604122567,0.16867869446447448,0.20770522653088672,0.05589510039143716,9588,50787,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,owner_f1,30,0.5165509019271183,0.4904098486223067,0.5421344704293274,0.07409082447714775,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,contested_tpr,30,0.4470260418759843,0.4258111368546832,0.4677482392355462,0.060757885849838565,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,contested_fpr,30,0.0,0.0,0.0,0.0,0,39433,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,contested_f1,30,0.6154957366537932,0.5944646798725092,0.6356969046053675,0.058164981614377026,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,clean_fpr,30,0.0,0.0,0.0,0.0,0,39429,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,victim_pair_post_onset_alert_rate,30,0.8408258858713016,0.8284073448200907,0.8525532406860049,0.03454826276798724,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,victim_id_post_onset_alert_rate,30,0.9820884994634994,0.9709641008297256,0.9912088637057386,0.029661646784915077,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,victim_pair_track_alert_rate,30,0.05731478036297115,0.04487726217699018,0.07070651769676238,0.036784155162773106,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,victim_id_track_alert_rate,30,0.08504309999745288,0.06754165216812602,0.10510567752719098,0.05210029012287933,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,track_stream_tpr,30,0.7637412996052043,0.7496335184979618,0.7785697012500438,0.04119192227959717,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,victim_pair_contested_rate,30,0.6896292753410125,0.6706638265872297,0.7089273748171084,0.055340160187676235,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,victim_id_contested_rate,30,0.9759139641720286,0.9621701376580408,0.9877799079504724,0.03619168103880727,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,malicious_opportunity_reception_rate,30,0.8671378824611126,0.8564088511024432,0.8778449808877654,0.030872384189237833,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,stream_peak_auc,30,0.9136200702656101,0.9061250267280707,0.920942704174556,0.02115140057873972,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,owner_peak_auc,30,0.765203681636953,0.7500423714087925,0.7808368407842787,0.043316060672395275,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,ttd_detected_frac,30,0.7641812030944973,0.750114570308093,0.7784492826075197,0.041090932189819185,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,latency_ms,30,1.2112790059906662,1.1992212310798043,1.223336780901528,0.032291314265874636,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p2,pdr,30,0.46335421342907374,0.4583949949117031,0.46837303139447817,0.013952049662566128,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,stream_tpr,30,0.7715597129831199,0.756022148376093,0.7871628763467104,0.04380024925850489,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,stream_fpr,30,0.0,0.0,0.0,0.0,0,27817,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,stream_f1,30,0.8703794889775139,0.8606077726142654,0.8801116473973452,0.028123291746106432,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,owner_tpr,30,0.7083731703318806,0.6886224928539978,0.7283225281434008,0.05610908750420034,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,owner_fpr,30,0.2580235981119442,0.23752444113743396,0.27893238377162954,0.05866674169096694,10412,40165,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,owner_f1,30,0.5727431553050747,0.5536679007432395,0.5928580722616879,0.05617680079383265,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,contested_tpr,30,0.4636703320655607,0.44111720607260174,0.48618757987179606,0.0639980376792307,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,contested_fpr,30,0.0,0.0,0.0,0.0,0,27817,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,contested_f1,30,0.6310228709417284,0.6098472765436724,0.6520099012921278,0.06038262011770827,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,clean_fpr,30,0.0,0.0,0.0,0.0,0,27807,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,victim_pair_post_onset_alert_rate,30,0.8390992671901641,0.822426203438711,0.8549164245146252,0.04628355473446899,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,victim_id_post_onset_alert_rate,30,0.9882436523140545,0.9789240377744328,0.9954630015432099,0.023554363329891147,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,victim_pair_track_alert_rate,30,0.053090118013979996,0.043672194345404175,0.0634826131242733,0.02823281284624825,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,victim_id_track_alert_rate,30,0.10398176749871171,0.0862171093525669,0.12374263049757912,0.052919851119625244,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,track_stream_tpr,30,0.7711384415945115,0.755452613275498,0.7866387811080913,0.043808562168399026,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,victim_pair_contested_rate,30,0.7014007777292094,0.6782645785720502,0.7253148300549344,0.06789243507026259,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,victim_id_contested_rate,30,0.9728086277810263,0.9565787263784928,0.9869603373611628,0.04254065855898582,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,malicious_opportunity_reception_rate,30,0.8796870761928146,0.8712882647176522,0.8877338589217467,0.02311619142105067,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,stream_peak_auc,30,0.916248493816234,0.9090518924380769,0.923215743151279,0.020186851829735425,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,owner_peak_auc,30,0.7502573977568263,0.7378732477444091,0.7639538059184873,0.03709002314485189,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,ttd_detected_frac,30,0.7715597129831199,0.7560263453691897,0.7869214391627435,0.04380024925850489,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,latency_ms,30,1.2192740770894066,1.204709995862277,1.2338381583165363,0.03900332585204599,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p3,pdr,30,0.46323735349570144,0.45747002691464617,0.4687674320179453,0.01601763891999083,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,stream_tpr,30,0.7834556184755167,0.7697823168854446,0.7957377573952199,0.03735712044912072,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,stream_fpr,30,0.0,0.0,0.0,0.0,0,11862,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,stream_f1,30,0.8780935696732336,0.8691942530928759,0.8858073375020465,0.024114154371950698,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,owner_tpr,30,0.752200482391285,0.7350699370482454,0.7680334439662305,0.04578875563918056,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,owner_fpr,30,0.3826466904623177,0.35858370391088534,0.4069009120100522,0.0697174327582924,8411,21884,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,owner_f1,30,0.6679762410886894,0.6553891252773066,0.6813215791111169,0.03667637106011608,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,contested_tpr,30,0.5026712700514465,0.48444078330749735,0.5199817816615595,0.05139842629520885,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,contested_fpr,30,0.0,0.0,0.0,0.0,0,11862,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,contested_f1,30,0.6674934452731079,0.6504408339049822,0.6831851783512064,0.04674035190737862,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,clean_fpr,30,0.0,0.0,0.0,0.0,0,11852,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,victim_pair_post_onset_alert_rate,30,0.8333530999682177,0.81670662936983,0.8491484651407095,0.04583092009124299,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,victim_id_post_onset_alert_rate,30,0.9770746884554354,0.9641655259491466,0.9876225259056078,0.03324550340544487,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,victim_pair_track_alert_rate,30,0.06497961900330397,0.05401553985812267,0.07691311077792103,0.0324526071278787,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,victim_id_track_alert_rate,30,0.14285452479575036,0.12982326704632577,0.15643470742344032,0.03850397604681629,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,track_stream_tpr,30,0.7830894452252236,0.769108706693677,0.7955782739964556,0.037246953786570766,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,victim_pair_contested_rate,30,0.7317218977923174,0.713538839153421,0.7500869222566404,0.051856754475927254,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,victim_id_contested_rate,30,0.9684960785600466,0.9526527413481811,0.9822816133389533,0.042671686103977056,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,malicious_opportunity_reception_rate,30,0.898387102382539,0.891785524696464,0.9049952684841772,0.01877400376966856,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,stream_peak_auc,30,0.9183754594601498,0.9108511720491221,0.9252090040090619,0.020247648229547652,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,owner_peak_auc,30,0.710819679273392,0.6980260650409427,0.7241932565146278,0.03633683607727706,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,ttd_detected_frac,30,0.7834556184755167,0.7699582875596215,0.7958939587340788,0.03735712044912072,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,latency_ms,30,1.2395016266913286,1.2195088752267789,1.2594943781558783,0.053541571753818046,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,mixedhard_prevalence,mixedhard_frac_0p5,pdr,30,0.45643442958702074,0.44942057369163846,0.4634578895768886,0.01977267233509221,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,stream_tpr,30,0.7712056263843964,0.7552225916710554,0.7866061612982367,0.04370253967242705,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,stream_fpr,30,0.0,0.0,0.0,0.0,0,27817,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,stream_f1,30,0.8701564878843006,0.8602676780057121,0.8803521294354731,0.028067559304292927,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,owner_tpr,30,0.7077138068109947,0.687723410330762,0.7271747216726978,0.056045678791526055,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,owner_fpr,30,0.2580235981119442,0.23774036617613256,0.2795040623159779,0.05866674169096694,10412,40165,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,owner_f1,30,0.5723626327232626,0.5536039287227758,0.5923045899901281,0.05614253958901962,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,contested_tpr,30,0.4636703320655607,0.44154155689969765,0.4865326991974955,0.0639980376792307,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,contested_fpr,30,0.0,0.0,0.0,0.0,0,27817,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,contested_f1,30,0.6310228709417284,0.6092698689171181,0.6519835051108195,0.06038262011770827,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,clean_fpr,30,0.0,0.0,0.0,0.0,0,27807,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,victim_pair_post_onset_alert_rate,30,0.8390992671901641,0.8226659047089895,0.8550174673838219,0.04628355473446899,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,victim_id_post_onset_alert_rate,30,0.9882436523140545,0.9792836364638448,0.9954556992337165,0.023554363329891147,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,victim_pair_track_alert_rate,30,0.05148515610629633,0.04274764680392967,0.061420747350397396,0.02641524751463354,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,victim_id_track_alert_rate,30,0.10398176749871171,0.08605997225455549,0.12295193399443667,0.052919851119625244,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,track_stream_tpr,30,0.7708223310279821,0.7551694614221247,0.7863005154658611,0.04370642193758698,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,victim_pair_contested_rate,30,0.7014007777292094,0.677923868980876,0.7262924196631861,0.06789243507026259,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,victim_id_contested_rate,30,0.9728086277810263,0.9570666662252592,0.9868447295490107,0.04254065855898582,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,malicious_opportunity_reception_rate,30,0.8796870761928146,0.8716649771246556,0.8874864278407784,0.02311619142105067,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,stream_peak_auc,30,0.9161229761585094,0.9090445290048591,0.923009605942842,0.020224147821877213,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,owner_peak_auc,30,0.7490982297162142,0.7366771601924187,0.7628271449325071,0.0371558429112908,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,ttd_detected_frac,30,0.7712056263843964,0.7552981540357546,0.7862648741483124,0.04370253967242705,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_2_assumed_4,latency_ms,30,1.2192740770894066,1.204709995862277,1.2338381583165363,0.03900332585204599,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,noise_misspecification,actual_2_assumed_4,pdr,30,0.46323735349570144,0.4573832210322565,0.46877515578571954,0.01601763891999083,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,stream_tpr,30,0.7748840315254604,0.7595933384721747,0.7901029242856781,0.04337897638377093,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,stream_fpr,30,0.015929024449628217,0.014066824096152997,0.017917477775937836,0.005441396640118257,443,27817,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,stream_precision,30,0.9779834837474611,0.9749024485190796,0.980923766000153,0.00858902533083915,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,stream_f1,30,0.863993611589677,0.8543249470075448,0.8734793511784692,0.027262989399616206,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,owner_tpr,30,0.7119852002149163,0.6925769595261901,0.7310894264477876,0.05546741160628223,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,owner_fpr,30,0.26999943797834464,0.2495800813338362,0.290055858733116,0.05799969514257399,10892,40165,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,owner_f1,30,0.5665550093949983,0.5477412521941023,0.5859507465819219,0.05425806524099268,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,contested_tpr,30,0.4636703320655607,0.44101685533779095,0.4850142953762957,0.0639980376792307,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,contested_fpr,30,0.0,0.0,0.0,0.0,0,27817,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,contested_f1,30,0.6310228709417284,0.6088243644826556,0.6515529760070706,0.06038262011770827,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,clean_fpr,30,0.015935717615567696,0.014043004012119678,0.01789605179427891,0.005445591964033097,443,27807,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,victim_pair_post_onset_alert_rate,30,0.842223537285755,0.825762688190335,0.857689020574799,0.04595532204273842,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,victim_id_post_onset_alert_rate,30,0.9882436523140545,0.9793951375585356,0.9954555129842485,0.023554363329891147,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,victim_pair_track_alert_rate,30,0.054852881317400896,0.046259938651748295,0.06421977130095977,0.025533739102463978,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,victim_id_track_alert_rate,30,0.14302382065997413,0.12179209146374324,0.16803646766955263,0.06732854245989005,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,track_stream_tpr,30,0.7714307128721152,0.7554350190248939,0.7867148979038237,0.04414332521685489,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,track_stream_fpr,30,0.009093943556421649,0.007863342884821383,0.010356919595418426,0.0036403882643071595,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,victim_pair_contested_rate,30,0.7014007777292094,0.6775391966567152,0.7259272647057905,0.06789243507026259,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,victim_id_contested_rate,30,0.9728086277810263,0.9567973331669832,0.9865347404483156,0.04254065855898582,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,malicious_opportunity_reception_rate,30,0.8796870761928146,0.8712629244673188,0.8876864861128139,0.02311619142105067,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,stream_peak_auc,30,0.9107476123960582,0.9038078866252851,0.9180296552313029,0.019890113964580423,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,owner_peak_auc,30,0.7484570946542405,0.7360068302773982,0.7618540188054922,0.036545262392269996,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,ttd_detected_frac,30,0.7734921211319069,0.7573450339664499,0.7884844871426653,0.043395416389699626,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_4_assumed_2,latency_ms,30,1.2192740770894066,1.204709995862277,1.2338381583165363,0.03900332585204599,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,noise_misspecification,actual_4_assumed_2,pdr,30,0.46323735349570144,0.45759807057999413,0.4689924218983379,0.01601763891999083,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,stream_tpr,30,0.8911073085835121,0.8840620587202396,0.8986048811988491,0.020979033737377053,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,stream_fpr,30,0.6734833856022068,0.6660724809131984,0.6810688498195767,0.021305182693753828,18726,27817,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,stream_precision,30,0.5501100063503491,0.5353974601334291,0.5654326093224763,0.04302579806731713,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,stream_f1,30,0.6793347229208564,0.6671130489560804,0.6914253442624072,0.034433368030319204,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,owner_tpr,30,0.8736352951420133,0.8656684074108104,0.8821336441053421,0.023094833043804153,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,owner_fpr,30,0.7456419923264654,0.7365336903655529,0.7545725954553644,0.02597145948613132,29971,40165,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,owner_f1,30,0.4262066949555726,0.4183960039133238,0.4344416209984722,0.02259445801099267,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,contested_tpr,30,0.4636703320655607,0.44089332460922553,0.486005538639204,0.0639980376792307,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,contested_fpr,30,0.0,0.0,0.0,0.0,0,27817,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,contested_f1,30,0.6310228709417284,0.6097515789818183,0.6514773893707161,0.06038262011770827,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,clean_fpr,30,0.6735459488712381,0.6658918325433717,0.6807933379865074,0.021286633966811314,18721,27807,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,victim_pair_post_onset_alert_rate,30,0.9092224739358912,0.8988340558417885,0.9191034366630162,0.028143249434433266,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,victim_id_post_onset_alert_rate,30,0.9925921972875995,0.9870625904640272,0.9975749559082893,0.015128494409789632,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,victim_pair_track_alert_rate,30,0.299485998484785,0.2817969395854408,0.3195275040541791,0.053876103768544105,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,victim_id_track_alert_rate,30,0.8629962347147264,0.8290972121235541,0.8962252897364607,0.09681107477224075,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,track_stream_tpr,30,0.8537509559113913,0.8449613338094698,0.8629863092118738,0.02541079089879227,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,track_stream_fpr,30,0.5549222376772261,0.5480373405913803,0.562009230581108,0.019931686364999354,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,victim_pair_contested_rate,30,0.7014007777292094,0.6782321975803739,0.7256098082430189,0.06789243507026259,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,victim_id_contested_rate,30,0.9728086277810263,0.9570996717528935,0.9866385349045481,0.04254065855898582,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,malicious_opportunity_reception_rate,30,0.8796870761928146,0.8718248229165121,0.8877648666989626,0.02311619142105067,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,stream_peak_auc,30,0.7591468402299034,0.7510182249815979,0.766996245681742,0.023123545332484254,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,owner_peak_auc,30,0.6733470046956799,0.6643087364833145,0.682728289771098,0.026625833452345538,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,ttd_detected_frac,30,0.7897604717608593,0.7811107877722251,0.7984443520224287,0.02500844949770229,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,noise_misspecification,actual_8_assumed_2,latency_ms,30,1.2192740770894066,1.204709995862277,1.2338381583165363,0.03900332585204599,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,noise_misspecification,actual_8_assumed_2,pdr,30,0.46323735349570144,0.4577549247730261,0.4689208237462358,0.01601763891999083,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,stream_tpr,30,0.2530544101450075,0.23728736344499338,0.2718754143168458,0.04872944006402282,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,stream_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,stream_f1,30,0.40169003388724855,0.38180113070124017,0.4238818997795165,0.058898777620368284,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,owner_tpr,30,0.2530544101450075,0.23737911302792877,0.2715766626855387,0.04872944006402282,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,owner_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,owner_f1,30,0.40169003388724855,0.38195656947330947,0.42416650867941846,0.058898777620368284,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,contested_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,contested_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,contested_f1,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,clean_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,victim_pair_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,victim_id_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,victim_pair_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,victim_id_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,track_stream_tpr,30,0.2530544101450075,0.23655506521660427,0.2713777490235335,0.04872944006402282,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,victim_pair_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,victim_id_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,malicious_opportunity_reception_rate,30,0.9795603220216049,0.9767688638386499,0.9824473932448327,0.007884533278178495,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,stream_peak_auc,30,0.6339647544854945,0.62602631584979,0.6430066967176353,0.024298647231899693,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,owner_peak_auc,30,0.6339647544854945,0.6259425461908327,0.6430469135837485,0.024298647231899693,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,ttd_detected_frac,30,0.2530544101450075,0.23773951904467167,0.2716224843127021,0.04872944006402282,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_constoffset,latency_ms,30,1.1869720346440178,1.179069886430264,1.1948741828577716,0.021162341578957206,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,pure_attack,pure_constoffset,pdr,30,0.4709791895070325,0.46417331309554377,0.4780709613610697,0.02019987201524006,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,stream_tpr,30,0.8722018756213098,0.8661753318894545,0.8782878091372045,0.017368488568606864,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,stream_fpr,30,0.0,0.0,0.0,0.0,0,18345,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,stream_f1,30,0.9316504774079776,0.9281893597348457,0.935319859656867,0.009886450665342217,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,owner_tpr,30,0.8722018756213098,0.8663382972663529,0.878340561144604,0.017368488568606864,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,owner_fpr,30,0.0,0.0,0.0,0.0,0,18345,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,owner_f1,30,0.9316504774079776,0.928330988999889,0.9351391685212539,0.009886450665342217,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,contested_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,contested_fpr,30,0.0,0.0,0.0,0.0,0,18345,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,contested_f1,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,clean_fpr,30,0.0,0.0,0.0,0.0,0,18345,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,victim_pair_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,victim_id_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,victim_pair_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,victim_id_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,track_stream_tpr,30,0.8722018756213098,0.8661778866384694,0.8782668603926117,0.017368488568606864,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,victim_pair_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,victim_id_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,malicious_opportunity_reception_rate,30,0.9946402026697991,0.9927863056954245,0.9963899034578994,0.005171717497058257,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,stream_peak_auc,30,0.9373201202044777,0.9343195964307521,0.9403400471969794,0.008571326377263405,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,owner_peak_auc,30,0.9373201202044777,0.9343128967490982,0.9402934330505643,0.008571326377263405,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,ttd_detected_frac,30,0.8722018756213098,0.8663010917864369,0.878328299626779,0.017368488568606864,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_dos,latency_ms,30,1.3190000505140345,1.3035959687387493,1.3344041322893196,0.04125288863494013,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,pure_attack,pure_dos,pdr,30,0.4464590952995715,0.4391015132792364,0.45399315234122667,0.020498047340186287,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,stream_tpr,30,0.979160423577243,0.9762106888258747,0.9820386369120742,0.008329829139870614,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,stream_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,stream_f1,30,0.9894531721376462,0.9879530496899106,0.9909104189125691,0.004258263334377562,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,owner_tpr,30,0.979160423577243,0.9761543196605824,0.9820383060255521,0.008329829139870614,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,owner_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,owner_f1,30,0.9894531721376462,0.9879506837841552,0.9909080926775661,0.004258263334377562,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,contested_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,contested_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,contested_f1,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,clean_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,victim_pair_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,victim_id_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,victim_pair_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,victim_id_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,track_stream_tpr,30,0.9772888270385558,0.9743720705215205,0.9801581289490947,0.008314536018623787,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,victim_pair_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,victim_id_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,malicious_opportunity_reception_rate,30,0.9795603220216049,0.9768271403407445,0.9823896855781934,0.007884533278178495,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,stream_peak_auc,30,0.9906024711564396,0.9891193971460954,0.9920479072480115,0.004194604118878397,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,owner_peak_auc,30,0.9906024711564396,0.989110914143498,0.9920505858892533,0.004194604118878397,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,ttd_detected_frac,30,0.979160423577243,0.9761295867281399,0.9820257917811701,0.008329829139870614,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_falsify,latency_ms,30,1.1869720346440178,1.179069886430264,1.1948741828577716,0.021162341578957206,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,pure_attack,pure_falsify,pdr,30,0.4709791895070325,0.46394252617698556,0.4782557470798954,0.02019987201524006,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,stream_tpr,30,0.9339474495013796,0.9301135547514361,0.9378076583335373,0.010898701725718746,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,stream_fpr,30,0.0,0.0,0.0,0.0,0,4623,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,stream_f1,30,0.9658140103927313,0.9637474156750424,0.9678783924253596,0.005823988711402905,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,owner_tpr,30,0.8765917903029332,0.8671413027888248,0.8857593195405488,0.026882231218851377,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,owner_fpr,30,0.7797111250370408,0.7652434893948408,0.7937420535545476,0.040660917720163836,19883,25475,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,owner_f1,30,0.37342114046399927,0.3557813359163404,0.3924821917391616,0.052232121685721916,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,contested_tpr,30,0.8555285777294034,0.8483432281447347,0.8627448722880103,0.020078405065439932,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,contested_fpr,30,0.0,0.0,0.0,0.0,0,4623,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,contested_f1,30,0.9220179920559044,0.9179211523615989,0.9261901445435611,0.011666663041531777,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,clean_fpr,30,0.0,0.0,0.0,0.0,0,4588,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,victim_pair_post_onset_alert_rate,30,0.951771110396943,0.9479188827402254,0.9556061134670302,0.01081908196850097,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,victim_id_post_onset_alert_rate,30,0.9960731792717087,0.9921463585434174,0.9990476190476191,0.010190715573965668,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,victim_pair_track_alert_rate,30,0.007025030899207516,0.005270651663001026,0.009011599347860144,0.005339427132726752,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,victim_id_track_alert_rate,30,0.06759455835119972,0.05402644139278389,0.08265044137156327,0.04069754294756286,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,track_stream_tpr,30,0.9339474495013796,0.9299856167954361,0.9378194869463357,0.010898701725718746,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,victim_pair_contested_rate,30,0.8998701597767488,0.8942458223190297,0.9056373356418328,0.0158757485136326,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,victim_id_contested_rate,30,0.9970535714285714,0.9932440476190476,1.0,0.008999563823584914,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,malicious_opportunity_reception_rate,30,0.8955394423111638,0.8899188476223411,0.9010468456904885,0.01571424886869974,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,stream_peak_auc,30,0.9999448394910516,0.9998837073723016,1.0,0.00016876130452359264,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,owner_peak_auc,30,0.5185140365720121,0.5045926699060007,0.5331311943696737,0.040550176519569166,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,ttd_detected_frac,30,0.9339474495013796,0.9301964950953544,0.9378521309451654,0.010898701725718746,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_replay,latency_ms,30,1.1869720346440178,1.179069886430264,1.1948741828577716,0.021162341578957206,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,pure_attack,pure_replay,pdr,30,0.4709791895070325,0.46386951470750787,0.47822490832754816,0.02019987201524006,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,stream_tpr,30,0.9608570197144342,0.9571747573098099,0.9643508185002747,0.009973847862675288,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,stream_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,stream_f1,30,0.9800122515264943,0.9781525562961171,0.9817813145924021,0.0052002649363194,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,owner_tpr,30,0.9608570197144342,0.9571860395266354,0.9642381457045616,0.009973847862675288,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,owner_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,owner_f1,30,0.9800122515264943,0.9781569907966865,0.9818022376590417,0.0052002649363194,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,contested_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,contested_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,contested_f1,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,clean_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,victim_pair_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,victim_id_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,victim_pair_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,victim_id_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,track_stream_tpr,30,0.957550845342896,0.9538373328088395,0.9609959033222504,0.010464104526197891,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,victim_pair_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,victim_id_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,malicious_opportunity_reception_rate,30,0.9795603220216049,0.9768120461111502,0.9823449048661879,0.007884533278178495,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,stream_peak_auc,30,0.9915830660682253,0.9901401469475434,0.9928890490417562,0.003995486896369283,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,owner_peak_auc,30,0.9915830660682253,0.9901255525032857,0.9929561852854369,0.003995486896369283,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,ttd_detected_frac,30,0.9608570197144342,0.9572652605832758,0.9643525900627099,0.009973847862675288,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_revheading,latency_ms,30,1.1869720346440178,1.179069886430264,1.1948741828577716,0.021162341578957206,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,pure_attack,pure_revheading,pdr,30,0.4709791895070325,0.463834445314257,0.478173853864381,0.02019987201524006,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,stream_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,stream_fpr,30,0.0,0.0,0.0,0.0,0,18451,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,stream_precision,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,stream_f1,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,owner_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,owner_fpr,30,0.0,0.0,0.0,0.0,0,18451,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,owner_f1,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,contested_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,contested_fpr,30,0.0,0.0,0.0,0.0,0,18451,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,contested_f1,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,clean_fpr,30,0.0,0.0,0.0,0.0,0,18451,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,victim_pair_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,victim_id_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,victim_pair_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,victim_id_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,track_stream_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,victim_pair_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,victim_id_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,malicious_opportunity_reception_rate,30,0.9844170833595849,0.9817113954320373,0.9870389303760846,0.007515707098522368,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,stream_peak_auc,30,0.4997105850503729,0.49882144862081235,0.5006358997799709,0.002541253896232883,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,owner_peak_auc,30,0.4997105850503729,0.4987994418082417,0.5005900825734366,0.002541253896232883,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,ttd_detected_frac,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_slydos,latency_ms,30,1.1925237091665886,1.1850075993977487,1.2000398189354284,0.02012851163640359,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,pure_attack,pure_slydos,pdr,30,0.4695484158258868,0.46232726079743003,0.47694203588497486,0.020916372273539638,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,stream_tpr,30,0.5228418887374463,0.4951436028192307,0.5529599109249095,0.08131592047942984,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,stream_fpr,30,0.0,0.0,0.0,0.0,0,14768,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,stream_f1,30,0.6831474107892331,0.6594171924073321,0.7074399380393238,0.0683068024317655,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,owner_tpr,2,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,owner_fpr,30,0.17448607706110042,0.16427189514089743,0.18526538346751453,0.029940441049878665,3863,22160,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,owner_f1,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,contested_tpr,30,0.5671947851833011,0.540575757940462,0.5959660159155356,0.07809202419575342,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,contested_fpr,30,0.0,0.0,0.0,0.0,0,14768,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,contested_f1,30,0.7208541961098536,0.6997904054406339,0.7432226956996,0.06197369711379245,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,clean_fpr,30,0.0,0.0,0.0,0.0,0,14761,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,victim_pair_post_onset_alert_rate,30,0.5228418887374463,0.4950792533462986,0.5530078970790169,0.08131592047942984,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,victim_id_post_onset_alert_rate,30,0.9480602730602731,0.9184931041181039,0.9732617382617382,0.07694912109733597,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,victim_pair_track_alert_rate,30,0.2821340068097435,0.2580356895291718,0.3088133879313217,0.07288292490904451,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,victim_id_track_alert_rate,30,0.7718398268398268,0.7319087995337997,0.8135015401265402,0.1175746150031972,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,track_stream_tpr,30,0.5224318772220977,0.49510424456664687,0.5520964555891107,0.08087303208491574,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,victim_pair_contested_rate,30,0.5671947851833011,0.540065359302067,0.5951146518587294,0.07809202419575342,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,victim_id_contested_rate,30,0.950838050838051,0.9250355200355203,0.9726108613608615,0.06838960830027184,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,malicious_opportunity_reception_rate,30,0.9799487179586613,0.9770134747612542,0.9830747361782857,0.008632907661730525,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,stream_peak_auc,30,0.7821690455511934,0.7687561845859178,0.7961108888169557,0.03892671923863722,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,owner_peak_auc,2,0.40858344207626507,0.3991228070175439,0.4180440771349862,0.01337935840870585,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,ttd_detected_frac,30,0.5228418887374463,0.4949642691448029,0.5515220460244158,0.08131592047942984,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,pure_attack,pure_spoof,latency_ms,30,1.1869720346440178,1.179069886430264,1.1948741828577716,0.021162341578957206,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,pure_attack,pure_spoof,pdr,30,0.4709791895070325,0.46399285071297686,0.477946451715176,0.02019987201524006,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,stream_tpr,30,0.7783390092472671,0.7666049787322291,0.7893193046235775,0.03235447634909202,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,stream_fpr,30,0.0,0.0,0.0,0.0,0,87445,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,stream_f1,30,0.8749898897077626,0.8676583999573941,0.8819815881840082,0.02076943323683691,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,owner_tpr,30,0.6961676412267533,0.6819113384656081,0.7095386957933337,0.04015467845679208,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,owner_fpr,30,0.21004008282409484,0.1936880526939578,0.2266508311416314,0.04680660538139117,24597,116521,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,owner_f1,30,0.5031585903903248,0.4853217682788216,0.5213398035574281,0.05091060108862962,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,contested_tpr,30,0.49600240325550066,0.4746244117035779,0.5149232349080938,0.05616974136644977,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,contested_fpr,30,0.0,0.0,0.0,0.0,0,87445,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,contested_f1,30,0.6611847165921757,0.6409911153194255,0.6782774719714357,0.05295047636970167,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,clean_fpr,30,0.0,0.0,0.0,0.0,0,87445,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,victim_pair_post_onset_alert_rate,30,0.8416891065687547,0.8272303421939206,0.8534863898164858,0.03721810754586816,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,victim_id_post_onset_alert_rate,30,0.9902931209224717,0.9855583922830496,0.9947937283414939,0.013445128233997374,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,victim_pair_track_alert_rate,30,0.03891593653748752,0.029299935775743597,0.04952598537987647,0.02928066453208739,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,victim_id_track_alert_rate,30,0.06913191770115425,0.058913797450536314,0.0803054285114597,0.03089434885627265,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,track_stream_tpr,30,0.7780642480201106,0.7663729359501882,0.7891294702595327,0.03257521199917268,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,victim_pair_contested_rate,30,0.7164005890823636,0.6938883209285104,0.7377273108179229,0.06189260968723908,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,victim_id_contested_rate,30,0.9885414076844954,0.9803904541785978,0.9948938392521229,0.020960501415863784,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,malicious_opportunity_reception_rate,30,0.8494629863541735,0.8426443848267453,0.8562694818609107,0.019496239303979028,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,stream_peak_auc,30,0.9265774608443448,0.9203029496730335,0.9322072066693661,0.01682707997476772,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,owner_peak_auc,30,0.7689308583501394,0.7579932254019794,0.7790209504695023,0.029371148287210484,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,ttd_detected_frac,30,0.7783390092472671,0.7665268645489347,0.7892081519856382,0.03235447634909202,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_105,latency_ms,30,1.2608523558510818,1.2507827893286112,1.2709219223735524,0.0269667944128992,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,scale,scale_n_105,pdr,30,0.4536987166160925,0.45078492081104593,0.4565307544347901,0.008290696240855976,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,stream_tpr,30,0.736085445408181,0.7098781240959311,0.7606382530189749,0.07399345732810401,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,stream_fpr,30,0.0,0.0,0.0,0.0,0,10353,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,stream_f1,30,0.8458981314723427,0.8273351772264844,0.8627592216588951,0.05069415318896533,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,owner_tpr,30,0.6646129165096704,0.636647039963418,0.6941676517601594,0.08326311972160119,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,owner_fpr,30,0.1463267315138101,0.12205135338522738,0.17143162811101567,0.06998377182134889,1841,12580,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,owner_f1,30,0.5475509971338315,0.5133422418732043,0.5808743556993444,0.09674272681619318,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,contested_tpr,30,0.3529137283251499,0.300398236789209,0.4075144574533265,0.14937690341460272,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,contested_fpr,30,0.0,0.0,0.0,0.0,0,10353,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,contested_f1,30,0.5043819924319171,0.44681234054368035,0.561395384466474,0.16338673240794452,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,clean_fpr,30,0.0,0.0,0.0,0.0,0,10349,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,victim_pair_post_onset_alert_rate,30,0.8005713415279506,0.7582452484001474,0.8397860011287971,0.11840595480090273,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,victim_id_post_onset_alert_rate,30,0.9816468253968255,0.967590939153439,0.994212962962963,0.03845490048022203,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,victim_pair_track_alert_rate,30,0.09867710757829136,0.06343766166613564,0.13678936120833643,0.10541452544861284,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,victim_id_track_alert_rate,30,0.1278831353831354,0.09650883607133609,0.1626658133533133,0.09689242591768209,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,track_stream_tpr,30,0.7353531283803569,0.7086962265899196,0.7606524621671287,0.07370502648008306,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,victim_pair_contested_rate,30,0.6231723441589438,0.5710024353763253,0.6751351762195437,0.15114767311660857,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,victim_id_contested_rate,30,0.9604559792059792,0.9354800986050986,0.9819023569023568,0.06590103292741807,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,malicious_opportunity_reception_rate,30,0.9046189431136452,0.889202863114213,0.9200126641895559,0.04392045014779141,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,stream_peak_auc,30,0.8911802390435813,0.8758290740930008,0.9059405269320896,0.04359810029197459,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,owner_peak_auc,30,0.7729693426642588,0.7551570607503437,0.7899813676851044,0.048845583258073644,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,ttd_detected_frac,30,0.736085445408181,0.7095064319570313,0.7613399649486998,0.07399345732810401,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,scale,scale_n_35,latency_ms,30,1.1711866693557116,1.1618222402836296,1.1805510984277936,0.02507840163898679,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,scale,scale_n_35,pdr,30,0.47075834128108573,0.4622770179825651,0.48002343004983644,0.02525794493934864,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,stream_tpr,30,0.7683478572777965,0.7525089146685342,0.7829822579678001,0.04384621582170578,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,stream_fpr,30,0.0,0.0,0.0,0.0,0,27817,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,stream_f1,30,0.8683233223357657,0.8582271763826349,0.8778567746043342,0.02827837834874128,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,owner_tpr,30,0.7068340871128199,0.6871118445106327,0.7265188670551669,0.05591659374152809,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,owner_fpr,30,0.25646174935548444,0.23597221874215046,0.27756792439057976,0.05817410987570054,10349,40165,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,owner_f1,30,0.5728976054336029,0.5538173693816769,0.5930739550397801,0.055797245504763,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,contested_tpr,30,0.4636703320655607,0.4412291144319688,0.4859776328847785,0.0639980376792307,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,contested_fpr,30,0.0,0.0,0.0,0.0,0,27817,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,contested_f1,30,0.6310228709417284,0.6095063131217395,0.6516967830769418,0.06038262011770827,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,clean_fpr,30,0.0,0.0,0.0,0.0,0,27807,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,victim_pair_post_onset_alert_rate,30,0.8341610686189135,0.8176490866317253,0.849929237280451,0.04638269059038375,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,victim_id_post_onset_alert_rate,30,0.9882436523140545,0.9788417394559994,0.9954630015432098,0.023554363329891147,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,victim_pair_track_alert_rate,30,0.053090118013979996,0.04372757472191135,0.0632597873785515,0.02823281284624825,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,victim_id_track_alert_rate,30,0.10398176749871171,0.08670517307534963,0.12403774301852467,0.052919851119625244,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,track_stream_tpr,30,0.767926585889188,0.7525333119862377,0.7833250381540344,0.04385635561243083,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,victim_pair_contested_rate,30,0.7014007777292094,0.6778251639733285,0.7257692632983314,0.06789243507026259,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,victim_id_contested_rate,30,0.9728086277810263,0.9569911805254793,0.9866574469393492,0.04254065855898582,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,malicious_opportunity_reception_rate,30,0.8796870761928146,0.8716237763557049,0.8876959499850863,0.02311619142105067,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,stream_peak_auc,30,0.915840024818028,0.908188833838596,0.9229206353470903,0.020712455464022346,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,owner_peak_auc,30,0.7529631163826337,0.7406140592146514,0.7662106714379266,0.03663699350303696,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,ttd_detected_frac,30,0.7683478572777965,0.7526126717091525,0.7838394196372241,0.04384621582170578,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_half_life_1p351,latency_ms,30,1.2192740770894066,1.204709995862277,1.2338381583165363,0.03900332585204599,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,score_variant,reference_half_life_1p351,pdr,30,0.46323735349570144,0.4576949136202827,0.4687511836313529,0.01601763891999083,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,stream_tpr,30,0.7730312133753335,0.7576397648949202,0.7878963451429323,0.043688616477692184,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,stream_fpr,30,0.0,0.0,0.0,0.0,0,27817,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,stream_f1,30,0.8713217604208449,0.8612197156163895,0.8809595374846888,0.027995349135339773,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,owner_tpr,30,0.7092655850748467,0.6894804219021783,0.728934079184304,0.05638824904732137,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,owner_fpr,30,0.25866720452116776,0.2380994145331806,0.2800768367232346,0.05875423106403687,10438,40165,nan,30,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,owner_f1,30,0.5728144193022495,0.5532148560001415,0.5936581922368669,0.056344304740902774,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,contested_tpr,30,0.4636703320655607,0.44064439932375565,0.4869709499960027,0.0639980376792307,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,contested_fpr,30,0.0,0.0,0.0,0.0,0,27817,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,contested_f1,30,0.6310228709417284,0.6099351373142735,0.6523558208008856,0.06038262011770827,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,clean_fpr,30,0.0,0.0,0.0,0.0,0,27807,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,victim_pair_post_onset_alert_rate,30,0.8412111136220007,0.8246306379443235,0.8571677904246207,0.046173051849990494,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,victim_id_post_onset_alert_rate,30,0.9882436523140545,0.9788460899014778,0.9954253392401021,0.023554363329891147,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,victim_pair_track_alert_rate,30,0.053090118013979996,0.04358152240257488,0.06380408831980033,0.02823281284624825,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,victim_id_track_alert_rate,30,0.10398176749871171,0.08670051640959013,0.12284619325820097,0.052919851119625244,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,track_stream_tpr,30,0.7726099419867251,0.7568729793836424,0.7881626229182881,0.04370050310307918,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,victim_pair_contested_rate,30,0.7014007777292094,0.6784936479196684,0.7257649579813544,0.06789243507026259,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,victim_id_contested_rate,30,0.9728086277810263,0.9569419383083023,0.9868798752931321,0.04254065855898582,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,malicious_opportunity_reception_rate,30,0.8796870761928146,0.8712408247943756,0.8877707015554231,0.02311619142105067,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,stream_peak_auc,30,0.9160676554196592,0.9084514514153725,0.9229312583482768,0.020301164061350904,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,owner_peak_auc,30,0.7466198862930189,0.7336634988934717,0.7605831966954566,0.038071256458564434,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,ttd_detected_frac,30,0.7730312133753335,0.7573680768547582,0.7881988646112512,0.043688616477692184,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,score_variant,reference_no_forgetting,latency_ms,30,1.2192740770894066,1.204709995862277,1.2338381583165363,0.03900332585204599,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,score_variant,reference_no_forgetting,pdr,30,0.46323735349570144,0.45760222857159744,0.4687191906121789,0.01601763891999083,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,serial_timing,detector_off,latency_ms,30,1.227142685324241,1.2170620429352852,1.237223327713197,0.02699645612810659,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,serial_timing,detector_off,pdr,30,0.4575168928474848,0.45283662939960534,0.4622010291907593,0.013327511148017196,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,serial_timing,detector_on,latency_ms,30,1.227142685324241,1.2170620429352852,1.237223327713197,0.02699645612810659,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,serial_timing,detector_on,pdr,30,0.4575168928474848,0.4529303835389639,0.4622759284502822,0.013327511148017196,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,serial_timing,detector_on,det_us,30,1.6732739620433834,1.636950805077206,1.709597119009561,0.09727520088859289,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,steady_state,pure_constoffset_steady,stream_tpr,30,0.00012077294685990338,0.0,0.00036231884057971015,0.0006615006733154179,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,stream_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,stream_precision,1,1.0,nan,nan,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,stream_f1,30,0.00024067388688327318,0.0,0.0007220216606498196,0.0013182251684841543,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,owner_tpr,30,0.00012077294685990338,0.0,0.00036231884057971015,0.0006615006733154179,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,owner_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,owner_f1,30,0.00024067388688327318,0.0,0.0007220216606498196,0.0013182251684841543,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,contested_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,contested_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,contested_f1,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,clean_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,victim_pair_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,victim_id_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,victim_pair_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,victim_id_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,track_stream_tpr,30,0.00012077294685990338,0.0,0.00036231884057971015,0.0006615006733154179,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,victim_pair_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,victim_id_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,malicious_opportunity_reception_rate,30,0.9795603220216049,0.9767800557720755,0.982315062131115,0.007884533278178495,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,stream_peak_auc,30,0.5006094722808596,0.4996840314815984,0.5014961515247728,0.0026158077653862816,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,owner_peak_auc,30,0.5006094722808596,0.4996465525492426,0.5015594580500851,0.0026158077653862816,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,ttd_detected_frac,30,0.00012077294685990338,0.0,0.00036231884057971015,0.0006615006733154179,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_constoffset_steady,latency_ms,30,1.1880115686015742,1.1798721527036977,1.1961509844994507,0.021797756106910073,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,steady_state,pure_constoffset_steady,pdr,30,0.47105333063975935,0.4641628686299926,0.4782985603888187,0.02047444889310025,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,stream_tpr,30,0.9766780600529963,0.9738198252410115,0.9795940081241135,0.00811573620585165,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,stream_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,stream_f1,30,0.9881849525315674,0.9867134537339141,0.9896607443713428,0.004156084648686003,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,owner_tpr,30,0.9766780600529963,0.9739191187396865,0.9795678188456588,0.00811573620585165,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,owner_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,owner_f1,30,0.9881849525315674,0.986662877514898,0.9896341013721514,0.004156084648686003,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,contested_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,contested_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,contested_f1,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,clean_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,victim_pair_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,victim_id_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,victim_pair_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,victim_id_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,track_stream_tpr,30,0.9753596325850905,0.9726886518171908,0.9779456664058702,0.007474138779820069,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,victim_pair_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,victim_id_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,malicious_opportunity_reception_rate,30,0.9795603220216049,0.976807134501531,0.9824220269895086,0.007884533278178495,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,stream_peak_auc,30,0.9900573696251467,0.9886479156543339,0.9913637748735582,0.0038418313225608218,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,owner_peak_auc,30,0.9900573696251467,0.9886833886508848,0.9914082725933919,0.0038418313225608218,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,ttd_detected_frac,30,0.9766780600529963,0.9738203022844496,0.979504180995212,0.00811573620585165,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_falsify_steady,latency_ms,30,1.1880115686015742,1.1798721527036977,1.1961509844994507,0.021797756106910073,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,steady_state,pure_falsify_steady,pdr,30,0.47105333063975935,0.4641789535104089,0.4783108484460644,0.02047444889310025,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,stream_tpr,30,0.9608570197144342,0.9572780005859954,0.9643595594841794,0.009973847862675288,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,stream_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,stream_precision,30,1.0,1.0,1.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,stream_f1,30,0.9800122515264943,0.9781507233307957,0.9817630977767101,0.0052002649363194,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,owner_tpr,30,0.9608570197144342,0.9572875112105913,0.964248212638235,0.009973847862675288,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,owner_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,owner_f1,30,0.9800122515264943,0.9781594599265421,0.9818246228178543,0.0052002649363194,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,contested_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,contested_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,contested_f1,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,clean_fpr,30,0.0,0.0,0.0,0.0,0,18484,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,victim_pair_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,victim_id_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,victim_pair_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,victim_id_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,track_stream_tpr,30,0.9695323861382941,0.9654868824886904,0.9734462061880551,0.011135199338984568,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,victim_pair_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,victim_id_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,malicious_opportunity_reception_rate,30,0.9795603220216049,0.9767607583770934,0.9823531949623869,0.007884533278178495,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,stream_peak_auc,30,0.991588933688417,0.9901898539037813,0.9929361762010447,0.003992415954133196,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,owner_peak_auc,30,0.991588933688417,0.9901337259118073,0.992935215153039,0.003992415954133196,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,ttd_detected_frac,30,0.9608570197144342,0.9573367772414939,0.9642115744229548,0.009973847862675288,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_revheading_steady,latency_ms,30,1.1880115686015742,1.1798721527036977,1.1961509844994507,0.021797756106910073,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,steady_state,pure_revheading_steady,pdr,30,0.47105333063975935,0.4640083195973056,0.4784560523321128,0.02047444889310025,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,stream_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,stream_fpr,30,0.0,0.0,0.0,0.0,0,18498,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,stream_precision,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,stream_f1,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,owner_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,owner_fpr,30,0.0,0.0,0.0,0.0,0,18498,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,owner_f1,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,contested_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,contested_fpr,30,0.0,0.0,0.0,0.0,0,18498,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,contested_f1,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,clean_fpr,30,0.0,0.0,0.0,0.0,0,18498,0.09503385285530419,0,30,RNG seed with any event,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,victim_pair_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,victim_id_post_onset_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,victim_pair_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,victim_id_track_alert_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,track_stream_tpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,track_stream_fpr,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,victim_pair_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,victim_id_contested_rate,0,nan,nan,nan,nan,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,malicious_opportunity_reception_rate,30,0.9854718597722858,0.9829378366839363,0.9878825081046165,0.0070391280195176474,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,stream_peak_auc,30,0.4993259275658996,0.49843755716555743,0.5002333406645346,0.0025594653909844535,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,owner_peak_auc,30,0.4993259275658996,0.49841620790965246,0.500202614497405,0.0025594653909844535,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,ttd_detected_frac,30,0.0,0.0,0.0,0.0,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds
+test,steady_state,pure_slydos_steady,latency_ms,30,1.194112189019786,1.1862275521759897,1.2019968258635825,0.021115445268924882,,,nan,,,,independent RNG seeds,Student-t over RNG seeds
+test,steady_state,pure_slydos_steady,pdr,30,0.46919101709655947,0.46218389822409967,0.4767205767676752,0.021167390380269078,,,nan,,,,independent RNG seeds,percentile bootstrap resampling RNG seeds

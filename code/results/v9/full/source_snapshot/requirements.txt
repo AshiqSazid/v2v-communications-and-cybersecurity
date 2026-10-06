@@ -1,0 +1,4 @@
+# Analysis and paper-figure dependencies.
+numpy>=2.0,<3
+scipy>=1.14,<2
+matplotlib>=3.8,<4
